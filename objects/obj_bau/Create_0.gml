@@ -9,3 +9,5 @@ armas[4] = obj_shotgun
 armas[5] = obj_sword
 
 _arma = -1
+
+teste = 0
