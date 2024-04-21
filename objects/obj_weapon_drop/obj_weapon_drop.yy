@@ -10,8 +10,8 @@
   "name":"obj_weapon_drop",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"weapons",
+    "path":"folders/Objects/weapons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

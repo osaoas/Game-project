@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sniperBullet",
-    "path":"sprites/spr_sniperBullet/spr_sniperBullet.yy",
+    "name":"spr_colision",
+    "path":"sprites/spr_colision/spr_colision.yy",
   },
   "spriteMaskId":{
     "name":"spr_colision",

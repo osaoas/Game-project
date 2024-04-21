@@ -6,5 +6,5 @@ _spd = 0.7;
 alarm[1] = 200
 randomize()
 
-_anda = irandom(1)
+_gesto = irandom(1)
 caminho = path_add()

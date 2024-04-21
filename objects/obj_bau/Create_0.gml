@@ -10,4 +10,11 @@ armas[5] = obj_sword
 
 _arma = -1
 
-teste = 0
+
+spr = spr_teclaQ
+
+pulse_speed = 0.005
+min_scale = 0.7
+max_scale = 1
+current_scale = min_scale
+
