@@ -11,12 +11,19 @@ armas[0] = ds_map_create();
 	ds_map_add(armas[0], "debuff", -1)
 	ds_map_add(armas[0], "type", -1)
 	ds_map_add(armas[0], "light_color", -1)
+	ds_map_add(armas[0], "atq", -1)
+	ds_map_add(armas[0], "atqhb", -1)
+	ds_map_add(armas[0], "combo1", -1)
+	ds_map_add(armas[0], "combo1hb", -1)
+	ds_map_add(armas[0], "combo2", -1)
+	ds_map_add(armas[0], "combo2hb", -1)
+
 
 
 armas[1] = ds_map_create();
 	ds_map_add(armas[1], "sprite", spr_pistol)
 	ds_map_add(armas[1], "proj", spr_proj)
-	ds_map_add(armas[1], "proj_spd", 8)
+	ds_map_add(armas[1], "proj_spd", 10)
 	ds_map_add(armas[1], "damage", 10)
 	ds_map_add(armas[1], "proj_delay", 12)
 	ds_map_add(armas[1], "automatic", true)
@@ -26,7 +33,12 @@ armas[1] = ds_map_create();
 	ds_map_add(armas[1], "debuff", -1)
 	ds_map_add(armas[1], "type", "tiro")
 	ds_map_add(armas[1], "light_color", c_purple)
-
+	ds_map_add(armas[1], "atq", -1)
+	ds_map_add(armas[1], "atqhb", -1)
+	ds_map_add(armas[1], "combo1", -1)
+	ds_map_add(armas[1], "combo1hb", -1)
+	ds_map_add(armas[1], "combo2", -1)
+	ds_map_add(armas[1], "combo2hb", -1)
 
 armas[2] = ds_map_create();
 	ds_map_add(armas[2], "sprite", spr_shotgun)
@@ -41,14 +53,19 @@ armas[2] = ds_map_create();
 	ds_map_add(armas[2], "debuff", -1)
 	ds_map_add(armas[2], "type", "tiro")
 	ds_map_add(armas[2], "light_color", c_purple)
-
+	ds_map_add(armas[2], "atq", -1)
+	ds_map_add(armas[2], "atqhb", -1)
+	ds_map_add(armas[2], "combo1", -1)
+	ds_map_add(armas[2], "combo1hb", -1)
+	ds_map_add(armas[2], "combo2", -1)
+	ds_map_add(armas[2], "combo2hb", -1)
 
 armas[3] = ds_map_create();
 	ds_map_add(armas[3], "sprite", spr_fuzil)
 	ds_map_add(armas[3], "proj", spr_proj15mm)
-	ds_map_add(armas[3], "proj_spd", 14)
+	ds_map_add(armas[3], "proj_spd", 16)
 	ds_map_add(armas[3], "damage", 5)
-	ds_map_add(armas[3], "proj_delay", 8)
+	ds_map_add(armas[3], "proj_delay", 6)
 	ds_map_add(armas[3], "automatic",true)
 	ds_map_add(armas[3],"drop", obj_fuzil)
 	ds_map_add(armas[3],"proj_count", 1)
@@ -56,14 +73,19 @@ armas[3] = ds_map_create();
 	ds_map_add(armas[3], "debuff", -1)
 	ds_map_add(armas[3], "type", "tiro")
 	ds_map_add(armas[3], "light_color", c_yellow)
-
+	ds_map_add(armas[3], "atq", -1)
+	ds_map_add(armas[3], "atqhb", -1)
+	ds_map_add(armas[3], "combo1", -1)
+	ds_map_add(armas[3], "combo1hb", -1)
+	ds_map_add(armas[3], "combo2", -1)
+	ds_map_add(armas[3], "combo2hb", -1)
 
 
 armas[4] = ds_map_create();
 	ds_map_add(armas[4], "sprite", spr_cajado)
 	ds_map_add(armas[4], "proj", spr_spell)
 	ds_map_add(armas[4], "proj_spd", 4)
-	ds_map_add(armas[4], "damage", 15)
+	ds_map_add(armas[4], "damage", 100) //dano 100% ficticio
 	ds_map_add(armas[4], "proj_delay", 35)
 	ds_map_add(armas[4], "automatic",true)
 	ds_map_add(armas[4],"drop", obj_cajado)
@@ -72,7 +94,12 @@ armas[4] = ds_map_create();
 	ds_map_add(armas[4], "debuff", "lentidão")
 	ds_map_add(armas[4], "type", "tiro")
 	ds_map_add(armas[4], "light_color", c_aqua)
-
+	ds_map_add(armas[4], "atq", -1)
+	ds_map_add(armas[4], "atqhb", -1)
+	ds_map_add(armas[4], "combo1", -1)
+	ds_map_add(armas[4], "combo1hb", -1)
+	ds_map_add(armas[4], "combo2", -1)
+	ds_map_add(armas[4], "combo2hb", -1)
 
 
 armas[5] = ds_map_create();
@@ -88,7 +115,12 @@ armas[5] = ds_map_create();
 	ds_map_add(armas[5], "debuff", "knockback")
 	ds_map_add(armas[5], "type", "tiro")
 	ds_map_add(armas[5], "light_color", c_red)
-
+	ds_map_add(armas[5], "atq", -1)
+	ds_map_add(armas[5], "atqhb", -1)
+	ds_map_add(armas[5], "combo1", -1)
+	ds_map_add(armas[5], "combo1hb", -1)
+	ds_map_add(armas[5], "combo2", -1)
+	ds_map_add(armas[5], "combo2hb", -1)
 
 armas[6] = ds_map_create();
 	ds_map_add(armas[6], "sprite", spr_fireCajado)
@@ -103,7 +135,12 @@ armas[6] = ds_map_create();
 	ds_map_add(armas[6], "debuff", "queimando")
 	ds_map_add(armas[6], "type", "tiro")
 	ds_map_add(armas[6], "light_color", c_orange)
-
+	ds_map_add(armas[6], "atq", -1)
+	ds_map_add(armas[6], "atqhb", -1)
+	ds_map_add(armas[6], "combo1", -1)
+	ds_map_add(armas[6], "combo1hb", -1)
+	ds_map_add(armas[6], "combo2", -1)
+	ds_map_add(armas[6], "combo2hb", -1)
 	
 armas[7] = ds_map_create();
 	ds_map_add(armas[7], "sprite", spr_sword)
@@ -118,7 +155,12 @@ armas[7] = ds_map_create();
 	ds_map_add(armas[7], "debuff", -1)
 	ds_map_add(armas[7], "type", "bater")
 	ds_map_add(armas[7], "light_color", -1)
-
+	ds_map_add(armas[7], "atq", spr_sword_atq)
+	ds_map_add(armas[7], "atqhb", spr_sword_atq_hb)
+	ds_map_add(armas[7], "combo1", spr_sword_atq_combo1)
+	ds_map_add(armas[7], "combo1hb", spr_sword_atq_combo1_hb)
+	ds_map_add(armas[7], "combo2", spr_sword_atq_combo2)
+	ds_map_add(armas[7], "combo2hb", spr_sword_atq_combo2_hb)
 
 
 

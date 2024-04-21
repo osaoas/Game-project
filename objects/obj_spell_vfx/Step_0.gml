@@ -1,4 +1,4 @@
-if(global.levelUp == true){
+if(global.pause == true){
 exit;	
 }
 

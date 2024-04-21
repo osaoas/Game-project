@@ -33,7 +33,7 @@ if(instance_exists(weapon_id)){
 			_proj.damage = damage
 			_proj.debuff = debuff
 			_proj.spd = proj_spd
-			create_lights(x,y,light_color,1,1,1, _proj)
+			create_lights(_proj.x,_proj.y,light_color,1,2,2, _proj)
 
 			}
 			recoil = 8
@@ -59,8 +59,8 @@ if(instance_exists(weapon_id)){
 
 					ds_list_clear(inimigos_atingidos)
 
-					sprite_index = spr_sword_atq
-					mask_index = spr_sword_atq_hb
+					sprite_index = atq
+					mask_index = atq_hb
 				
 					alarm[0] = other.proj_delay;
 				
@@ -77,8 +77,8 @@ if(instance_exists(weapon_id)){
 			}else if combo == 1{
 				with(_hit){
 					ds_list_clear(inimigos_atingidos)
-					sprite_index = spr_sword_atq_combo1
-					mask_index = spr_sword_atq_combo1_hb
+					sprite_index = combo1
+					mask_index = combo1_hb
 
 					alarm[0] = other.proj_delay;
 				
@@ -95,8 +95,8 @@ if(instance_exists(weapon_id)){
 			}else{
 				with(_hit){
 						ds_list_clear(inimigos_atingidos)
-						sprite_index = spr_sword_atq_combo2
-						mask_index = spr_sword_atq_combo2_hb
+						sprite_index = combo2
+						mask_index = combo2_hb
 						other.combo = 0;
 
 						alarm[0] = other.proj_delay;

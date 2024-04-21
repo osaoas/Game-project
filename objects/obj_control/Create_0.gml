@@ -2,7 +2,7 @@ display_set_gui_size(320,160)
 
 
 
-spawn_time = 500;
+spawn_time = 180;
 
 global.pause = false;
 global.maxEnemy = 0;

@@ -28,9 +28,9 @@ if(sprite_index = spr_bau_aberto && image_index == 4 && _arma == -1){
 
 
 if(obj_player.y < y){
-	depth = obj_player.depth -1
+	depth = obj_light_render.depth - 1
 }else{
-	depth = obj_player.depth + 1	
+	depth = obj_light_render.depth + 1 
 }
 
 
