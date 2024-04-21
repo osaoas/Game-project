@@ -1,0 +1,1 @@
+ja_entrou = false

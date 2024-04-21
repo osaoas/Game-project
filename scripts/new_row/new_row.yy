@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"new_row",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"new_row",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"string_format_type_hour",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"string_format_type_hour",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

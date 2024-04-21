@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"scr_mudar_arma",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_mudar_arma",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
