@@ -1,5 +1,4 @@
-if(global.
-levelUp == true){
+if(global.pause == true){
 	
 	speed = 0;
 	alarm[0]++
@@ -10,8 +9,12 @@ exit;
 
 
 
+
+
 if (alarm[0] <= 0 && efect != -1){
 	instance_create_layer(x,y,"Instances", efect)
 	alarm[0] = 3
 }
+
+
 

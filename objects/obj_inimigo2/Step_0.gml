@@ -37,7 +37,7 @@ if(_gesto == 0){
 	var _type_atq = irandom(6)
 	if(_type_atq == 0){
 	
-	var _proj = instance_create_layer(x,y,layer,obj_proj_enemy)
+	var _proj = instance_create_layer(x,y,"Projeteis",obj_proj_enemy)
 	_proj.direction = point_direction(x,y,obj_player.x,obj_player.y)
 	_proj.speed = 2;
 	}else if( _type_atq == 1){	

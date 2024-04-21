@@ -1,18 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fireVfx",
-  "eventList":[],
+  "%Name":"obj_light",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_fireVfx",
+  "name":"obj_light",
   "overriddenProperties":[],
   "parent":{
-    "name":"weapons",
-    "path":"folders/Objects/weapons.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"obj_spell_vfx",
-    "path":"objects/obj_spell_vfx/obj_spell_vfx.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fireVfx",
-    "path":"sprites/spr_fireVfx/spr_fireVfx.yy",
+    "name":"spr_light",
+    "path":"sprites/spr_light/spr_light.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

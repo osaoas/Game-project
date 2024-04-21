@@ -10,6 +10,8 @@ armas[0] = ds_map_create();
 	ds_map_add(armas[0], "proj_effect", -1)
 	ds_map_add(armas[0], "debuff", -1)
 	ds_map_add(armas[0], "type", -1)
+	ds_map_add(armas[0], "light_color", -1)
+
 
 armas[1] = ds_map_create();
 	ds_map_add(armas[1], "sprite", spr_pistol)
@@ -23,6 +25,7 @@ armas[1] = ds_map_create();
 	ds_map_add(armas[1], "proj_effect", -1)
 	ds_map_add(armas[1], "debuff", -1)
 	ds_map_add(armas[1], "type", "tiro")
+	ds_map_add(armas[1], "light_color", c_purple)
 
 
 armas[2] = ds_map_create();
@@ -37,6 +40,7 @@ armas[2] = ds_map_create();
 	ds_map_add(armas[2], "proj_effect", -1)
 	ds_map_add(armas[2], "debuff", -1)
 	ds_map_add(armas[2], "type", "tiro")
+	ds_map_add(armas[2], "light_color", c_purple)
 
 
 armas[3] = ds_map_create();
@@ -51,6 +55,7 @@ armas[3] = ds_map_create();
 	ds_map_add(armas[3], "proj_effect", -1)
 	ds_map_add(armas[3], "debuff", -1)
 	ds_map_add(armas[3], "type", "tiro")
+	ds_map_add(armas[3], "light_color", c_yellow)
 
 
 
@@ -66,6 +71,7 @@ armas[4] = ds_map_create();
 	ds_map_add(armas[4], "proj_effect", obj_spell_vfx)
 	ds_map_add(armas[4], "debuff", "lentidão")
 	ds_map_add(armas[4], "type", "tiro")
+	ds_map_add(armas[4], "light_color", c_aqua)
 
 
 
@@ -78,9 +84,10 @@ armas[5] = ds_map_create();
 	ds_map_add(armas[5], "automatic",false)
 	ds_map_add(armas[5],"drop", obj_sniper)
 	ds_map_add(armas[5],"proj_count", 1)
-	ds_map_add(armas[5], "proj_effect", obj_fireVfx)
+	ds_map_add(armas[5], "proj_effect", -1)
 	ds_map_add(armas[5], "debuff", "knockback")
 	ds_map_add(armas[5], "type", "tiro")
+	ds_map_add(armas[5], "light_color", c_red)
 
 
 armas[6] = ds_map_create();
@@ -95,6 +102,8 @@ armas[6] = ds_map_create();
 	ds_map_add(armas[6], "proj_effect", obj_fireBall_vfx)
 	ds_map_add(armas[6], "debuff", "queimando")
 	ds_map_add(armas[6], "type", "tiro")
+	ds_map_add(armas[6], "light_color", c_orange)
+
 	
 armas[7] = ds_map_create();
 	ds_map_add(armas[7], "sprite", spr_sword)
@@ -108,6 +117,7 @@ armas[7] = ds_map_create();
 	ds_map_add(armas[7], "proj_effect", -1)
 	ds_map_add(armas[7], "debuff", -1)
 	ds_map_add(armas[7], "type", "bater")
+	ds_map_add(armas[7], "light_color", -1)
 
 
 

@@ -1,14 +1,14 @@
-if(global.levelUp == true){
-	path_speed = 0
-	exit;
-}
-
-
-if(global.levelUp == true){
-sprite_index = sprI
-speed = 0
-path_speed = 0;
-exit;	
+if(global.pause == true){
+	image_speed = 0;
+	_spd = 0
+	speed = 0
+	sprite_index = sprI
+	alarm[0]++
+	alarm[1]++
+	alarm[2]++
+	exit;	
+}else{
+	image_speed = 1
 }
 
 hit_alpha = lerp(hit_alpha,0,0.1)
@@ -27,7 +27,7 @@ if(life <= 0){
 		if(obj_player.x > x){
 			image_xscale = 1;	
 		}else if(obj_player.x < x){
-		image_xscale = -1;
+			image_xscale = -1;
 		{
 		
 		}
@@ -58,11 +58,16 @@ switch(debuff){
 		_dir -= 360	
 		}
 		
-		var _hspd = lengthdir_x(2,_dir)
-		var _vspd = lengthdir_y(2,_dir)
-
-		x += _hspd
-		y += _vspd
+		var _hspd = lengthdir_x(10,_dir)
+		var _vspd = lengthdir_y(10,_dir)
+		var _hspd2 = lengthdir_x(20,_dir)
+		var _vspd2 = lengthdir_y(20,_dir)
+		if instance_position(x+_hspd2 ,y+_vspd2,obj_colision) == noone{
+			x += _hspd
+			y += _vspd
+		}else{
+			debuff = -1	
+		}
 	break;
 	case "queimando":
 

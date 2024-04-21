@@ -1,9 +1,9 @@
 {
   "$GMScript":"",
-  "%Name":"new_upgrd",
+  "%Name":"scr_lights",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"new_upgrd",
+  "name":"scr_lights",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",

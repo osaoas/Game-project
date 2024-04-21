@@ -1,6 +1,10 @@
-if(global.levelUp == true){
-sprite_index = spr_player_idle
-exit;	
+if(global.pause == true){
+	
+	sprite_index = spr_player_idle
+	image_speed = 0
+	exit;	
+}else{
+	image_speed = 1	
 }
 
 
@@ -76,6 +80,9 @@ room_restart()
 }
 
 with(my_weapon){
+	if(global.pause){
+		exit	
+	}
 	var mb;
 	var _key_drop = keyboard_check_pressed(ord("F"))
 	var _key_pickup = keyboard_check_pressed(ord("E"))

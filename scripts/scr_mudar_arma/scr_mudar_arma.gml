@@ -15,4 +15,6 @@ function scr_mudar_arma(_id,index){
 				_id.proj_effect = _map[? "proj_effect"]
 				_id.debuff = _map[? "debuff"]
 				_id.type = _map[? "type"]
+				_id.light_color = _map[? "light_color"]
+
 }

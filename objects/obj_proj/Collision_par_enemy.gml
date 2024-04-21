@@ -1,5 +1,4 @@
 
-
 instance_destroy()
 other.debuff = debuff;
 other.life -= damage;

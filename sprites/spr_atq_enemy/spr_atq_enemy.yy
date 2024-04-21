@@ -21,7 +21,6 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"dbe3809a-737b-4cb5-8e78-7f381e1e0b3b","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"dbe3809a-737b-4cb5-8e78-7f381e1e0b3b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"d3391ce5-ff45-4f98-8556-1b809db3d6b0","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"d3391ce5-ff45-4f98-8556-1b809db3d6b0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"33209c25-f39d-44f0-94e4-9a58e2adaafd","blendMode":0,"displayName":"default","isLocked":false,"name":"33209c25-f39d-44f0-94e4-9a58e2adaafd","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_atq_enemy",
   "nineSlice":null,

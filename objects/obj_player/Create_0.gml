@@ -19,3 +19,9 @@ pode = true;
 alarm[1] = 120
 
 _arma_proxima_id = -1;
+
+create_lights(x,y,c_white,1,2,2,self)
+
+
+
+

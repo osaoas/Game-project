@@ -8,8 +8,8 @@
   "name":"obj_inimigo2",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"life","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprR","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_inimigo_run",},
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprI","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_inimigo_idle",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprR","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_slime_run",},
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprI","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_slime_idle",},
   ],
   "parent":{
     "name":"Objects",
@@ -37,8 +37,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_inimigo_idle",
-    "path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",
+    "name":"spr_slime_idle",
+    "path":"sprites/spr_slime_idle/spr_slime_idle.yy",
   },
   "spriteMaskId":{
     "name":"spr_inimigo_idle",

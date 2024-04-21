@@ -33,6 +33,8 @@ if(instance_exists(weapon_id)){
 			_proj.damage = damage
 			_proj.debuff = debuff
 			_proj.spd = proj_spd
+			create_lights(x,y,light_color,1,1,1, _proj)
+
 			}
 			recoil = 8
 			can_shoot = false
