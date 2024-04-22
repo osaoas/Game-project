@@ -23,7 +23,7 @@ if(_gesto == 0){
 	var _y2 = (obj_player.y div 32) * 32;
 
 	if(mp_grid_path(obj_control.mp_grid,caminho,_x1,_y1,_x2,_y2,true)){
-		path_start(caminho,_spd,path_action_stop,false)	
+		path_start(caminho,_spd,path_action_stop,true)	
 	}
 }else if _gesto == 1{
 	sprite_index = sprI

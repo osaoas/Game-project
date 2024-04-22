@@ -117,20 +117,25 @@ with(my_weapon){
 	}
 	
 	if(_key_pickup && !instance_exists(obj_weapon_hit)){
-	if(other.my_weapons[(other.arma_equipada + 1) mod 2] == 0){
-		other.my_weapons[(other.arma_equipada + 1) mod 2] = weapon_pickup(false,other._arma_proxima_id);
-		other.arma_equipada = (other.arma_equipada + 1) mod 2;
-		scr_mudar_arma(self, other.my_weapons[other.arma_equipada]);
+	if(global.my_weapons[(global.arma_index + 1) mod 2] == 0){
+		global.my_weapons[(global.arma_index + 1) mod 2] = weapon_pickup(false,other._arma_proxima_id);
+		global.arma_index = (global.arma_index + 1) mod 2;
+		scr_mudar_arma(self, global.my_weapons[global.arma_index]);
+		global.arma_equipada = global.my_weapons[global.arma_index]
+
 		
 	}else{
-		other.my_weapons[other.arma_equipada] = weapon_pickup(true,other._arma_proxima_id)
+		global.my_weapons[global.arma_index] = weapon_pickup(true,other._arma_proxima_id)
+		global.arma_equipada = global.my_weapons[global.arma_index]
+
 	}
 
 	}
 	if(keyboard_check_pressed(ord("B"))){
-		if(!(other.my_weapons[(other.arma_equipada + 1) mod 2]) == 0){
-			other.arma_equipada = (other.arma_equipada + 1) mod 2
-			scr_mudar_arma(self, other.my_weapons[other.arma_equipada])	
+		if(!(global.my_weapons[(global.arma_index + 1) mod 2]) == 0){
+			global.arma_index = (global.arma_index + 1) mod 2;
+			global.arma_equipada = global.my_weapons[global.arma_index]
+			scr_mudar_arma(self, global.my_weapons[global.arma_index])	
 		}
 	}
 }

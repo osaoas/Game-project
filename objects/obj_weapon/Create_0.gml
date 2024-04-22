@@ -172,8 +172,9 @@ weapon_x = 0;
 weapon_y = 0;
 can_shoot = true
 bateu = false
-scr_mudar_arma(self,1)
 recoil = 0;
+
+scr_mudar_arma(self,global.arma_equipada)
 
 
 

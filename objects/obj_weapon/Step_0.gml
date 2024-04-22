@@ -59,8 +59,8 @@ if(instance_exists(weapon_id)){
 
 					ds_list_clear(inimigos_atingidos)
 
-					sprite_index = atq
-					mask_index = atq_hb
+					sprite_index = other.atq
+					mask_index = other.atq_hb
 				
 					alarm[0] = other.proj_delay;
 				
@@ -77,8 +77,8 @@ if(instance_exists(weapon_id)){
 			}else if combo == 1{
 				with(_hit){
 					ds_list_clear(inimigos_atingidos)
-					sprite_index = combo1
-					mask_index = combo1_hb
+					sprite_index = other.combo1
+					mask_index = other.combo1_hb
 
 					alarm[0] = other.proj_delay;
 				
@@ -95,8 +95,8 @@ if(instance_exists(weapon_id)){
 			}else{
 				with(_hit){
 						ds_list_clear(inimigos_atingidos)
-						sprite_index = combo2
-						mask_index = combo2_hb
+						sprite_index = other.combo2
+						mask_index = other.combo2_hb
 						other.combo = 0;
 
 						alarm[0] = other.proj_delay;
