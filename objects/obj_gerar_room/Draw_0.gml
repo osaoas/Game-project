@@ -24,6 +24,8 @@ if(ja_criou == false){
 			}else if cor_pixel == 16776960{ //azul
 				instance_create_layer(_xx,_yy,layer,obj_water)	
 			}else if cor_pixel == 65535{ //amarelo
+				instance_create_layer(_xx,_yy,layer,obj_bau)	
+
 					
 			}else if cor_pixel == 16711935{ //rosa
 				instance_create_layer(_xx,_yy,"enemies",obj_inimigo)	
