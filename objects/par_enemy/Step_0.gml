@@ -11,7 +11,7 @@ if(global.pause == true){
 	image_speed = 1
 }
 
-hit_alpha = lerp(hit_alpha,0,0.1)
+hit_alpha = lerp(hit_alpha,0,0.05)
 if(life <= 0){
 	instance_destroy()
 	global.enemiesLie++;

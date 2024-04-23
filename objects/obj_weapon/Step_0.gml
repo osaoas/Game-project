@@ -62,7 +62,6 @@ if(instance_exists(weapon_id)){
 					sprite_index = other.atq
 					mask_index = other.atq_hb
 				
-					alarm[0] = other.proj_delay;
 				
 				
 						var _w = obj_weapon
@@ -80,7 +79,6 @@ if(instance_exists(weapon_id)){
 					sprite_index = other.combo1
 					mask_index = other.combo1_hb
 
-					alarm[0] = other.proj_delay;
 				
 				
 						var _w = obj_weapon
@@ -99,7 +97,6 @@ if(instance_exists(weapon_id)){
 						mask_index = other.combo2_hb
 						other.combo = 0;
 
-						alarm[0] = other.proj_delay;
 				
 				
 						var _w = obj_weapon
@@ -126,7 +123,7 @@ if(instance_exists(weapon_id)){
 			return false;
 		}
 		
-	
+		
 		var _inst = instance_create_layer(x,y,layer,drop)
 		_inst.image_angle = weapon_dir;
 		_inst.direction = weapon_dir;

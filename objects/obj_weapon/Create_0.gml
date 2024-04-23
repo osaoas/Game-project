@@ -147,7 +147,7 @@ armas[7] = ds_map_create();
 	ds_map_add(armas[7], "proj", spr_sword_atq)
 	ds_map_add(armas[7], "proj_spd", 0)
 	ds_map_add(armas[7], "damage", 40)
-	ds_map_add(armas[7], "proj_delay", 20)
+	ds_map_add(armas[7], "proj_delay", 15)
 	ds_map_add(armas[7], "automatic",false)
 	ds_map_add(armas[7],"drop", obj_sword)
 	ds_map_add(armas[7],"proj_count", -1)

@@ -16,8 +16,21 @@ if(ja_criou == false){
 			var cor_pixel = surface_getpixel(surf,_x,_y)
 			var _xx = _x*32
 			var _yy = _y*32
-			if(cor_pixel==2366702){
-				instance_create_layer(_xx,_yy,layer,obj_colision)	
+
+			if(cor_pixel==2366702){ //VERMELHO
+			}else if(cor_pixel==65280){ //verde
+				instance_create_layer(_xx,_yy,"enemies",obj_inimigo2)	
+
+			}else if cor_pixel == 16776960{ //azul
+				instance_create_layer(_xx,_yy,layer,obj_water)	
+			}else if cor_pixel == 65535{ //amarelo
+					
+			}else if cor_pixel == 16711935{ //rosa
+				instance_create_layer(_xx,_yy,"enemies",obj_inimigo)	
+
+			}else if cor_pixel == 2254322{ //laranja
+				instance_create_layer(_xx,_yy,layer,obj_buraco)	
+
 			}
 			
 		}
@@ -27,4 +40,4 @@ if(ja_criou == false){
 
 	surface_free(surf)
 	ja_criou=true
-	}
+}

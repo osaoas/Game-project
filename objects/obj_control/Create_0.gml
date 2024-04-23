@@ -2,8 +2,6 @@ display_set_gui_size(320,160)
 
 
 
-spawn_time = 60;
-alarm[0] = spawn_time
 global.pause = false;
 global.maxEnemy = 0;
 global.enemies = 0
@@ -27,13 +25,11 @@ global.enemiesLie = 0;
 mp_grid  = mp_grid_create(0,0,cell_h,cell_v,cell_t,cell_t)
 
 
-global.in_room = false;
-global.maxEnemy = 2 * global.room
 
 function spawn_monstros(_monstro){
 
 var _xr1 = 30
-var _xr2 = 672
+var _xr2 = 530
 var _yr1 = 6
 var _yr2 = 412
 

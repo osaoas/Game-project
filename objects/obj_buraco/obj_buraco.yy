@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_colision",
+  "%Name":"obj_buraco",
   "eventList":[],
   "managed":true,
-  "name":"obj_colision",
+  "name":"obj_buraco",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"partes da room",
+    "path":"folders/Objects/partes da room.yy",
   },
-  "parentObjectId":{
-    "name":"obj_water",
-    "path":"objects/obj_water/obj_water.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_colision",
-    "path":"sprites/spr_colision/spr_colision.yy",
+    "name":"spr_buraco",
+    "path":"sprites/spr_buraco/spr_buraco.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

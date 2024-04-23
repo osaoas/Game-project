@@ -41,16 +41,16 @@ sprite_index = spr_player_run;
 }
 
 
-if(place_meeting(x+velh, y, obj_colision)){
-	while(!place_meeting(x+sign(velh),y, obj_colision))	{
+if(place_meeting(x+velh, y, obj_water)){
+	while(!place_meeting(x+sign(velh),y, obj_water))	{
 		x+=sign(velh)
 	}
 	velh=0
 }
 
 
-if(place_meeting(x, y + velv, obj_colision)){
-	while(!place_meeting(x,y + sign(velv), obj_colision))	{
+if(place_meeting(x, y + velv, obj_water)){
+	while(!place_meeting(x,y + sign(velv), obj_water))	{
 		y+=sign(velv)
 	}
 	velv=0
@@ -132,7 +132,7 @@ with(my_weapon){
 
 	}
 	if(keyboard_check_pressed(ord("B"))){
-		if(!(global.my_weapons[(global.arma_index + 1) mod 2]) == 0){
+		if(global.my_weapons[(global.arma_index + 1) mod 2] != 0 and global.my_weapons[(global.arma_index + 1) mod 2] != undefined){
 			global.arma_index = (global.arma_index + 1) mod 2;
 			global.arma_equipada = global.my_weapons[global.arma_index]
 			scr_mudar_arma(self, global.my_weapons[global.arma_index])	

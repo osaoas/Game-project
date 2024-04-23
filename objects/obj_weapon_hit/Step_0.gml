@@ -21,10 +21,17 @@
 						
 								with(inimigoID){
 									life -= obj_weapon.damage;	
+									hit_alpha = 1;
+
+
 								}
 							}
 					
 						}
 					}
 					ds_list_destroy(inimigos_na_hitbox)
+					
+					
+					
+
 					
