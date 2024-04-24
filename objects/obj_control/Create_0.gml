@@ -1,4 +1,4 @@
-display_set_gui_size(320,160)
+display_set_gui_size(504,360)
 
 
 

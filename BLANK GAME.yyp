@@ -46,6 +46,7 @@
   "resources":[
     {"id":{"name":"fnt_small","path":"fonts/fnt_small/fnt_small.yy",},},
     {"id":{"name":"obj_bau","path":"objects/obj_bau/obj_bau.yy",},},
+    {"id":{"name":"obj_buraco","path":"objects/obj_buraco/obj_buraco.yy",},},
     {"id":{"name":"obj_cajado","path":"objects/obj_cajado/obj_cajado.yy",},},
     {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
     {"id":{"name":"obj_colision","path":"objects/obj_colision/obj_colision.yy",},},
@@ -73,7 +74,6 @@
     {"id":{"name":"obj_weapon_drop","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},},
     {"id":{"name":"obj_weapon_hit","path":"objects/obj_weapon_hit/obj_weapon_hit.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
-    {"id":{"name":"obj_buraco","path":"objects/obj_buraco/obj_buraco.yy",},},
     {"id":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},},
     {"id":{"name":"sala01","path":"rooms/sala01/sala01.yy",},},
     {"id":{"name":"scr_lights","path":"scripts/scr_lights/scr_lights.yy",},},
@@ -120,6 +120,7 @@
     {"id":{"name":"spr_teclaQ","path":"sprites/spr_teclaQ/spr_teclaQ.yy",},},
     {"id":{"name":"spr_tileSet","path":"sprites/spr_tileSet/spr_tileSet.yy",},},
     {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
+    {"id":{"name":"spr_GUI_gunEqp","path":"sprites/spr_GUI_gunEqp/spr_GUI_gunEqp.yy",},},
     {"id":{"name":"TileSet","path":"tilesets/TileSet/TileSet.yy",},},
   ],
   "resourceType":"GMProject",

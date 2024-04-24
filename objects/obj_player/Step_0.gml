@@ -7,6 +7,13 @@ if(global.pause == true){
 	image_speed = 1	
 }
 
+for (var i = 0; i <= 1; i++) {
+	if(global.my_weapons[i] == undefined){
+		global.my_weapons[i] = 0	
+	}
+}
+
+
 
 var tecla_cima = keyboard_check(ord("W"))
 var tecla_baixo = keyboard_check(ord("S"))
@@ -80,7 +87,7 @@ room_restart()
 }
 
 with(my_weapon){
-	if(global.pause){
+	if(global.pause or !instance_exists(other)){
 		exit	
 	}
 	var mb;
@@ -109,7 +116,7 @@ with(my_weapon){
 					alarm[1] = 120;
 			}
 
-				
+
 			
 		}
 		
@@ -117,17 +124,17 @@ with(my_weapon){
 	}
 	
 	if(_key_pickup && !instance_exists(obj_weapon_hit)){
-	if(global.my_weapons[(global.arma_index + 1) mod 2] == 0){
+		
+	if(global.my_weapons[(global.arma_index + 1) mod 2] == 0 && other._arma_proxima_id != -1){
 		global.my_weapons[(global.arma_index + 1) mod 2] = weapon_pickup(false,other._arma_proxima_id);
 		global.arma_index = (global.arma_index + 1) mod 2;
 		scr_mudar_arma(self, global.my_weapons[global.arma_index]);
 		global.arma_equipada = global.my_weapons[global.arma_index]
-
+	}else if(other._arma_proxima_id == -1){
 		
 	}else{
 		global.my_weapons[global.arma_index] = weapon_pickup(true,other._arma_proxima_id)
-		global.arma_equipada = global.my_weapons[global.arma_index]
-
+		global.arma_equipada = global.my_weapons[global.arma_index]	
 	}
 
 	}
@@ -140,7 +147,7 @@ with(my_weapon){
 	}
 }
 other._arma_proxima_id = -1
-var _arma_dist = 30;
+var _arma_dist = 20;
 
 with(obj_weapon_drop){
 	var _dist = point_distance(x,y,other.x,other.y)
