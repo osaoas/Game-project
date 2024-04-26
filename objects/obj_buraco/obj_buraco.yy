@@ -31,6 +31,9 @@
     "name":"spr_buraco",
     "path":"sprites/spr_buraco/spr_buraco.yy",
   },
-  "spriteMaskId":null,
-  "visible":true,
+  "spriteMaskId":{
+    "name":"spr_colision",
+    "path":"sprites/spr_colision/spr_colision.yy",
+  },
+  "visible":false,
 }

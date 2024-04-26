@@ -23,7 +23,7 @@ if(life <= 0){
 
 		
 		sprite_index = sprR
-		if(instance_exists(obj_player)) {
+		if(instance_exists(obj_player) && sprR != -1) {
 		if(obj_player.x > x){
 			image_xscale = 1;	
 		}else if(obj_player.x < x){

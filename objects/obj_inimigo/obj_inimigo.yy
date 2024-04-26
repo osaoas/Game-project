@@ -6,7 +6,9 @@
   ],
   "managed":true,
   "name":"obj_inimigo",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprR","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
+  ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",

@@ -10,8 +10,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_water",
-    "path":"objects/obj_water/obj_water.yy",
+    "name":"obj_buraco",
+    "path":"objects/obj_buraco/obj_buraco.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

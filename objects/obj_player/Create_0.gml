@@ -2,21 +2,20 @@ velh = 0;
 velv = 0;
 velc = 10;
 move_dir = 0;
-
 if(!variable_global_exists("my_weapons")){
 	global.my_weapons = [1,0]
 	global.arma_equipada = global.my_weapons[0];
 	global.arma_index = 0
+	global.life = 3;
+	global.life_max = 3;
+	
 }
 
 	my_weapon = instance_create_layer(x,y,"Weapons", obj_weapon)
 	my_weapon.weapon_id = self;
 
 
-range_collect = 50;
 invencible = false;
-life = 3;
-life_max = 3;
 estado = "parado"
 perto = true;
 pode = true;

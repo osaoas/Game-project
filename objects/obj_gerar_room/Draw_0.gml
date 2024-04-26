@@ -12,28 +12,55 @@ if(ja_criou == false){
 	
 
 	for(var _y = 0; _y<spr_h;_y++){
+
 		for(var _x = 0;_x<spr_w;_x++){
+			
 			var cor_pixel = surface_getpixel(surf,_x,_y)
-			var _xx = _x*32
-			var _yy = _y*32
+			var _xx = _x*32+32
+			var _yy = _y*32+64
+			
+		
 
 			if(cor_pixel==2366702){ //VERMELHO
 			}else if(cor_pixel==65280){ //verde
 				instance_create_layer(_xx,_yy,"enemies",obj_inimigo2)	
 
 			}else if cor_pixel == 16776960{ //azul
-				instance_create_layer(_xx,_yy,layer,obj_water)	
 			}else if cor_pixel == 65535{ //amarelo
 				instance_create_layer(_xx,_yy,layer,obj_bau)	
 
 					
 			}else if cor_pixel == 16711935{ //rosa
-				instance_create_layer(_xx,_yy,"enemies",obj_inimigo)	
+				if(_xx < 200){
+					instance_create_layer(_xx+5,_yy,"enemies",obj_inimigo)	
+				}else{
+					instance_create_layer(_xx-5,_yy,"enemies",obj_inimigo)	
+	
+				}
 
 			}else if cor_pixel == 2254322{ //laranja
-				instance_create_layer(_xx,_yy,layer,obj_buraco)	
+				var _norte_t = surface_getpixel(surf,_x,_y-1) 
+				var _sul_t = surface_getpixel(surf,_x,_y+1)	
+				var _leste_t = surface_getpixel(surf,_x+1,_y) 
+				var _oeste_t = surface_getpixel(surf,_x-1,_y) 
+				
+				
+				var _norte = _norte_t == 2254322
+				var _oeste = _oeste_t == 2254322
+				var _leste = _leste_t == 2254322
+				var _sul   = _sul_t	  == 2254322
 
+				
+				var tile_index = (_norte * norte) + (_oeste * oeste) + (_leste * leste) + (_sul * sul) 
+				tilemap_set(tile_layer, tile_index,_x+1,_y+2)
+				
+				instance_create_layer(_xx,_yy,layer,obj_buraco)	
+		
+				
+				
+				
 			}
+			
 			
 		}
 	}

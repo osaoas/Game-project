@@ -19,7 +19,7 @@
   "height":256,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"dd06c6b3-598a-4235-b213-a4ba19a167ca","blendMode":0,"displayName":"default","isLocked":false,"name":"dd06c6b3-598a-4235-b213-a4ba19a167ca","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"33fbadd1-af52-471a-8ea8-87c5d4e489ab","blendMode":0,"displayName":"default","isLocked":false,"name":"33fbadd1-af52-471a-8ea8-87c5d4e489ab","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_tileSet",
   "nineSlice":null,

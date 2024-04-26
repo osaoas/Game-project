@@ -48,16 +48,17 @@ sprite_index = spr_player_run;
 }
 
 
-if(place_meeting(x+velh, y, obj_water)){
-	while(!place_meeting(x+sign(velh),y, obj_water))	{
+
+if(place_meeting(x+velh, y, obj_buraco)){
+	while(!place_meeting(x+sign(velh),y, obj_buraco))	{
 		x+=sign(velh)
 	}
 	velh=0
 }
 
 
-if(place_meeting(x, y + velv, obj_water)){
-	while(!place_meeting(x,y + sign(velv), obj_water))	{
+if(place_meeting(x, y + velv, obj_buraco)){
+	while(!place_meeting(x,y + sign(velv), obj_buraco))	{
 		y+=sign(velv)
 	}
 	velv=0
@@ -77,13 +78,16 @@ if(place_meeting(x, y + velv, obj_water)){
 
 
 if((place_meeting(x,y,par_enemy) or place_meeting(x,y,obj_proj_enemy)) and !invencible){
-	life -= 1;
+	global.life -= 1;
 	invencible = true;
 	alarm[0] = 100;
 	image_blend = c_red;
 }
-if(life <= 0){
-room_restart()
+if(global.life <= 0){
+	room_restart()
+	global.life=3
+	global.room=1;
+	
 }
 
 with(my_weapon){
