@@ -6,4 +6,7 @@ function create_lights(_x,_y,_color,_intensidade,_xscale,_yscale,_target = -1){
 	_luz.image_alpha = _intensidade
 	_luz.target = _target
 	
+	return _luz
+	
+	
 }

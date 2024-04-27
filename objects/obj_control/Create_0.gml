@@ -9,6 +9,8 @@ global.rx1 = 0;
 global.rx2 = 0;
 global.ry1 = 0;
 global.ry2 = 0;
+global.nums = ds_list_create()
+
 if(!variable_global_exists("room")){
 	global.room = 1;
 }

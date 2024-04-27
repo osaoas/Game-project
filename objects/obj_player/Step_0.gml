@@ -14,7 +14,7 @@ for (var i = 0; i <= 1; i++) {
 }
 
 
-
+if estado != "dash"{
 var tecla_cima = keyboard_check(ord("W"))
 var tecla_baixo = keyboard_check(ord("S"))
 
@@ -22,6 +22,23 @@ var tecla_direita = keyboard_check(ord("D"))
 var tecla_esquerda = keyboard_check(ord("A"))
 
 var teclas = tecla_direita - tecla_esquerda != 0 or tecla_baixo - tecla_cima != 0;
+
+
+if((place_meeting(x,y,par_enemy)) and !invencible){
+	global.life -= 1;
+	invencible = true;
+	alarm[0] = 100;
+	image_blend = c_red;
+}
+}
+if(global.life <= 0){
+	room_restart()
+	global.life=3
+	global.room=1;
+	
+}
+
+
 switch(estado){
 	case "parado":
 		sprite_index = spr_player_idle
@@ -50,6 +67,7 @@ sprite_index = spr_player_run;
 
 
 if(place_meeting(x+velh, y, obj_buraco)){
+	estado = "parado"
 	while(!place_meeting(x+sign(velh),y, obj_buraco))	{
 		x+=sign(velh)
 	}
@@ -58,37 +76,49 @@ if(place_meeting(x+velh, y, obj_buraco)){
 
 
 if(place_meeting(x, y + velv, obj_buraco)){
+		estado = "parado"
+
 	while(!place_meeting(x,y + sign(velv), obj_buraco))	{
 		y+=sign(velv)
 	}
 	velv=0
 }
 
+if(place_meeting(x+velh, y, obj_porta) and obj_porta.sprite_index == spr_porta_fechada){
+		estado = "parado"
+
+	while(!place_meeting(x+sign(velh),y, obj_porta))	{
+		x+=sign(velh)
+	}
+	velh=0
+}
+
+
+if(place_meeting(x, y + velv, obj_porta) and obj_porta.sprite_index == spr_porta_fechada){
+		estado = "parado"
+
+	while(!place_meeting(x,y + sign(velv), obj_porta))	{
+		y+=sign(velv)
+	}
+	velv=0
+}
 
 
 		x+=velh
 		y+=velv
+	
 
 	
+	
+	break;
+	case "dash":
+		
 	break;
 	
 	
-	
 }
 
 
-if((place_meeting(x,y,par_enemy) or place_meeting(x,y,obj_proj_enemy)) and !invencible){
-	global.life -= 1;
-	invencible = true;
-	alarm[0] = 100;
-	image_blend = c_red;
-}
-if(global.life <= 0){
-	room_restart()
-	global.life=3
-	global.room=1;
-	
-}
 
 with(my_weapon){
 	if(global.pause or !instance_exists(other)){

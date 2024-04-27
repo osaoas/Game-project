@@ -22,21 +22,23 @@ if(ja_criou == false){
 		
 
 			if(cor_pixel==2366702){ //VERMELHO
+				instance_create_layer(_xx,_yy,layer,obj_espinho)	
+
 			}else if(cor_pixel==65280){ //verde
 				instance_create_layer(_xx,_yy,"enemies",obj_inimigo2)	
 
 			}else if cor_pixel == 16776960{ //azul
+				
+				instance_create_layer(_xx,_yy,layer,obj_loja_altar)	
+
+				
 			}else if cor_pixel == 65535{ //amarelo
 				instance_create_layer(_xx,_yy,layer,obj_bau)	
 
 					
 			}else if cor_pixel == 16711935{ //rosa
-				if(_xx < 200){
-					instance_create_layer(_xx+5,_yy,"enemies",obj_inimigo)	
-				}else{
-					instance_create_layer(_xx-5,_yy,"enemies",obj_inimigo)	
-	
-				}
+					instance_create_layer(_xx + 16,_yy + 16,"enemies",obj_inimigo)	
+				
 
 			}else if cor_pixel == 2254322{ //laranja
 				var _norte_t = surface_getpixel(surf,_x,_y-1) 

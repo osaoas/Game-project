@@ -63,9 +63,9 @@ armas[2] = ds_map_create();
 armas[3] = ds_map_create();
 	ds_map_add(armas[3], "sprite", spr_fuzil)
 	ds_map_add(armas[3], "proj", spr_proj15mm)
-	ds_map_add(armas[3], "proj_spd", 16)
-	ds_map_add(armas[3], "damage", 5)
-	ds_map_add(armas[3], "proj_delay", 6)
+	ds_map_add(armas[3], "proj_spd", 25)
+	ds_map_add(armas[3], "damage", 100)
+	ds_map_add(armas[3], "proj_delay", 3)
 	ds_map_add(armas[3], "automatic",true)
 	ds_map_add(armas[3],"drop", obj_fuzil)
 	ds_map_add(armas[3],"proj_count", 1)

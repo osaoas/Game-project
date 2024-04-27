@@ -1,5 +1,5 @@
 if(global.pause){
 	speed = 0;	
 }else{
-	speed = 1	
+	speed = spd;	
 }

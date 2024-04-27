@@ -31,10 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":{
-    "name":"spr_colision",
-    "path":"sprites/spr_colision/spr_colision.yy",
+  "spriteId":{
+    "name":"spr_porta_fechada",
+    "path":"sprites/spr_porta_fechada/spr_porta_fechada.yy",
   },
+  "spriteMaskId":null,
   "visible":true,
 }

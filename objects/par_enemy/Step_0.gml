@@ -13,6 +13,8 @@ if(global.pause == true){
 
 hit_alpha = lerp(hit_alpha,0,0.05)
 if(life <= 0){
+	
+	instance_create_layer(x,y,layer,obj_moeda)
 	instance_destroy()
 	global.enemiesLie++;
 }

@@ -1,4 +1,4 @@
-if(aberta == true){
+if(aberta){
 	if(global.room<=9){
 		global.room +=1
 	}else{
