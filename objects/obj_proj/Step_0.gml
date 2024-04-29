@@ -16,5 +16,7 @@ if (alarm[0] <= 0 && efect != -1){
 	alarm[0] = 3
 }
 
-
+if !global.ricochete{
+	Nbateu = false	
+}
 

@@ -9,7 +9,9 @@ if(!variable_global_exists("my_weapons")){
 	global.life = 3;
 	global.life_max = 3;
 	global.money = 30
-	global.imu_espinho = false
+	global.imu_espinho = false;
+	global.ricochete = false
+	
 }
 
 

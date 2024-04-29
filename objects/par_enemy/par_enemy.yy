@@ -32,8 +32,8 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"","%Name":"life","filters":[],"listItems":[],"multiselect":false,"name":"life","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":0,},
-    {"$GMObjectProperty":"","%Name":"sprR","filters":[],"listItems":[],"multiselect":false,"name":"sprR","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_inimigo_run","varType":0,},
-    {"$GMObjectProperty":"","%Name":"sprI","filters":[],"listItems":[],"multiselect":false,"name":"sprI","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_inimigo_idle","varType":0,},
+    {"$GMObjectProperty":"","%Name":"sprR","filters":[],"listItems":[],"multiselect":false,"name":"sprR","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
+    {"$GMObjectProperty":"","%Name":"sprI","filters":[],"listItems":[],"multiselect":false,"name":"sprI","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

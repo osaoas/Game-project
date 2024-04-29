@@ -6,3 +6,7 @@ function imu_espinho(){
 	
 	
 }
+
+function ricochete(){
+	global.ricochete = true	
+}

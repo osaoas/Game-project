@@ -1,6 +1,6 @@
-draw_sprite(spr_sombra,0,x,y + sprite_height / 2)
-if(instance_exists(obj_espinho)){
-	draw_text(x,y-50,obj_espinho.image_speed)
+draw_sprite(spr_sombra,0,x,y + 10)
+if(instance_exists(obj_proj)){
+	draw_text(x,y-50,obj_proj.direction)
 }
 draw_self();
 

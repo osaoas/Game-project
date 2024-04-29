@@ -141,7 +141,8 @@ armas[6] = ds_map_create();
 	ds_map_add(armas[6], "combo1hb", -1)
 	ds_map_add(armas[6], "combo2", -1)
 	ds_map_add(armas[6], "combo2hb", -1)
-	
+
+
 armas[7] = ds_map_create();
 	ds_map_add(armas[7], "sprite", spr_sword)
 	ds_map_add(armas[7], "proj", spr_sword_atq)

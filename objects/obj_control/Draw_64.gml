@@ -18,7 +18,7 @@ draw_text_ext_transformed_color(455,70,_dmg,0,99,0.7,0.7,0,c_white,c_white,c_whi
 draw_text_ext_transformed_color(455,70,_dmg,0,99,0.7,0.7,0,c_purple,c_purple,c_purple,c_purple,0.3)
 
 if(instance_exists(obj_player)){
-
+	
 	draw_sprite_ext(spr_life_bar, 0, 407, 20,1,1,0,c_black,1 )
 	draw_sprite_ext(spr_life, 0, 408, 20,global.life/global.life_max,1,0,c_white,1 )
 	draw_sprite_ext(spr_life_bar, 0, 407, 20,1,1,0,c_white,1 )
@@ -31,12 +31,14 @@ if(instance_exists(obj_player)){
 	draw_text_ext_transformed_color(455,15,string(global.life) + "/" + string(global.life_max),0,99,0.4,0.4,0,c_purple,c_purple,c_purple,c_purple,0.3)
 }
 
-draw_text_transformed_color(456,110,"Money: " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
-draw_text_transformed_color(454,110,"Money: " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
-draw_text_transformed_color(455,111,"Money: " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
-draw_text_transformed_color(455,109,"Money: " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
+draw_sprite_ext(spr_moeda,1,430,110,1.3,1.3,0,c_white,1)
 
-draw_text_transformed_color(455,110,"Money: " + string(global.money),0.8,0.8,0,c_white,c_white,c_white,c_white,1)
-draw_text_transformed_color(455,110,"Money: " + string(global.money),0.8,0.8,0,c_purple,c_purple,c_purple,c_purple,0.3)
+draw_text_transformed_color(456,110," : " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
+draw_text_transformed_color(454,110," : " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
+draw_text_transformed_color(455,111," : " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
+draw_text_transformed_color(455,109," : " + string(global.money),0.8,0.8,0,c_black,c_black,c_black,c_black,1)
+
+draw_text_transformed_color(455,110," : " + string(global.money),0.8,0.8,0,c_white,c_white,c_white,c_white,1)
+draw_text_transformed_color(455,110," : " + string(global.money),0.8,0.8,0,c_purple,c_purple,c_purple,c_purple,0.3)
 
 

@@ -14,7 +14,6 @@ for (var i = 0; i <= 1; i++) {
 }
 
 
-if estado != "dash"{
 var tecla_cima = keyboard_check(ord("W"))
 var tecla_baixo = keyboard_check(ord("S"))
 
@@ -29,7 +28,6 @@ if((place_meeting(x,y,par_enemy)) and !invencible){
 	invencible = true;
 	alarm[0] = 100;
 	image_blend = c_red;
-}
 }
 if(global.life <= 0){
 	room_restart()
@@ -67,7 +65,6 @@ sprite_index = spr_player_run;
 
 
 if(place_meeting(x+velh, y, obj_buraco)){
-	estado = "parado"
 	while(!place_meeting(x+sign(velh),y, obj_buraco))	{
 		x+=sign(velh)
 	}
@@ -76,7 +73,6 @@ if(place_meeting(x+velh, y, obj_buraco)){
 
 
 if(place_meeting(x, y + velv, obj_buraco)){
-		estado = "parado"
 
 	while(!place_meeting(x,y + sign(velv), obj_buraco))	{
 		y+=sign(velv)
@@ -85,7 +81,6 @@ if(place_meeting(x, y + velv, obj_buraco)){
 }
 
 if(place_meeting(x+velh, y, obj_porta) and obj_porta.sprite_index == spr_porta_fechada){
-		estado = "parado"
 
 	while(!place_meeting(x+sign(velh),y, obj_porta))	{
 		x+=sign(velh)
@@ -95,7 +90,6 @@ if(place_meeting(x+velh, y, obj_porta) and obj_porta.sprite_index == spr_porta_f
 
 
 if(place_meeting(x, y + velv, obj_porta) and obj_porta.sprite_index == spr_porta_fechada){
-		estado = "parado"
 
 	while(!place_meeting(x,y + sign(velv), obj_porta))	{
 		y+=sign(velv)
@@ -111,10 +105,7 @@ if(place_meeting(x, y + velv, obj_porta) and obj_porta.sprite_index == spr_porta
 	
 	
 	break;
-	case "dash":
-		
-	break;
-	
+
 	
 }
 
@@ -144,7 +135,7 @@ with(my_weapon){
 	if(mb){
 		if(instance_exists(obj_weapon_hit) and other.pode == true){
 			
-			if(obj_weapon_hit.image_index >= 3){
+			if(obj_weapon_hit.image_index >= 2){
 					obj_weapon.combo++;
 					other.pode = false;
 					alarm[1] = 120;
@@ -158,13 +149,13 @@ with(my_weapon){
 	}
 	
 	if(_key_pickup && !instance_exists(obj_weapon_hit)){
-		
+	
 	if(global.my_weapons[(global.arma_index + 1) mod 2] == 0 && other._arma_proxima_id != -1){
 		global.my_weapons[(global.arma_index + 1) mod 2] = weapon_pickup(false,other._arma_proxima_id);
 		global.arma_index = (global.arma_index + 1) mod 2;
 		scr_mudar_arma(self, global.my_weapons[global.arma_index]);
 		global.arma_equipada = global.my_weapons[global.arma_index]
-	}else if(other._arma_proxima_id == -1){
+	}else if(other._arma_proxima_id == -1 && !instance_exists(obj_weapon_hit)) {
 		
 	}else{
 		global.my_weapons[global.arma_index] = weapon_pickup(true,other._arma_proxima_id)
@@ -172,7 +163,7 @@ with(my_weapon){
 	}
 
 	}
-	if(keyboard_check_pressed(ord("B"))){
+	if(keyboard_check_pressed(ord("B")) && !instance_exists(obj_weapon_hit) ){
 		if(global.my_weapons[(global.arma_index + 1) mod 2] != 0 and global.my_weapons[(global.arma_index + 1) mod 2] != undefined){
 			global.arma_index = (global.arma_index + 1) mod 2;
 			global.arma_equipada = global.my_weapons[global.arma_index]

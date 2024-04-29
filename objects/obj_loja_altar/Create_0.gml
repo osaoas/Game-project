@@ -41,12 +41,24 @@ armas[5] = ds_map_create();
 	ds_map_add(armas[5], "obj", obj_sword)
 	ds_map_add(armas[5], "scr", -1)
 
-armas[6] = ds_map_create();
-	ds_map_add(armas[6], "sprite", spr_imu_espinho)
-	ds_map_add(armas[6], "preco", 40)
-	ds_map_add(armas[6], "obj", -1)
-	ds_map_add(armas[6], "scr", imu_espinho)
 
+i = 6;
+if(!global.imu_espinho){
+	armas[i] = ds_map_create();
+		ds_map_add(armas[i], "sprite", spr_imu_espinho)
+		ds_map_add(armas[i], "preco", 40)
+		ds_map_add(armas[i], "obj", -1)
+		ds_map_add(armas[i], "scr", imu_espinho)
+		i++;
+}
+
+if(!global.ricochete){
+	armas[i] = ds_map_create();
+		ds_map_add(armas[i], "sprite", spr_ricochete)
+		ds_map_add(armas[i], "preco", 40)
+		ds_map_add(armas[i], "obj", -1)
+		ds_map_add(armas[i], "scr", ricochete)
+}
 
 
 
@@ -57,11 +69,8 @@ while(ds_list_find_index(global.nums,index) != -1){
 	index = irandom(array_length(armas) - 1)
 }
 	
-if global.imu_espinho == true{
-	while(armas[index][? "sprite"] == spr_imu_espinho or ds_list_find_index(global.nums,index) != -1){
-		index = irandom(array_length(armas) - 1)
-	}	
-}
+
+
 	
 	
 ds_list_add(global.nums,index)
