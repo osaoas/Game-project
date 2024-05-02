@@ -1,4 +1,12 @@
-	var _w = obj_weapon
+if(global.pause or instance_exists(obj_hit_slow)){
+	image_speed=0;	
+}else{
+	image_speed=1	
+}
+
+
+
+var _w = obj_weapon
 	x = _w.weapon_id.x;
 	y = _w.weapon_id.y + 7.5;
 	x = x + lengthdir_x(16,_w.weapon_dir)
@@ -18,11 +26,18 @@
 							var inimigoID = inimigos_na_hitbox[| i]
 							if(ds_list_find_index(inimigos_atingidos,inimigoID) == -1){
 								ds_list_add(inimigos_atingidos, inimigoID)
-						
 								with(inimigoID){
 									life -= obj_weapon.damage;	
 									hit_alpha = 1;
-
+									var _hit = 	instance_create_layer(x,y,"Weapons",obj_hit_effect)
+									_hit.sprite_index = spr_hit_effect_sword
+									var _hit_dir = obj_weapon.weapon_dir + 90
+									if(_hit_dir>=360){
+										_hit_dir -= 360	
+									}
+									_hit.image_angle = _hit_dir
+									
+										
 
 								}
 							}

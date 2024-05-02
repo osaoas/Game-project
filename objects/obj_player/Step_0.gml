@@ -7,6 +7,15 @@ if(global.pause == true){
 	image_speed = 1	
 }
 
+if(instance_exists(obj_hit_slow)){
+	image_speed=0
+	exit;
+}else{
+	image_speed=1	
+}
+
+
+
 for (var i = 0; i <= 1; i++) {
 	if(global.my_weapons[i] == undefined){
 		global.my_weapons[i] = 0	
@@ -28,6 +37,7 @@ if((place_meeting(x,y,par_enemy)) and !invencible){
 	invencible = true;
 	alarm[0] = 100;
 	image_blend = c_red;
+	instance_create_depth(0,0,0,obj_hit_slow)
 }
 if(global.life <= 0){
 	room_restart()
@@ -108,9 +118,6 @@ if(place_meeting(x, y + velv, obj_porta) and obj_porta.sprite_index == spr_porta
 
 	
 }
-
-
-
 with(my_weapon){
 	if(global.pause or !instance_exists(other)){
 		exit	
@@ -126,10 +133,12 @@ with(my_weapon){
 	}
 	
 	weapon_dir = point_direction(x,y,mouse_x,mouse_y);
-		_dist = instance_nearest(x,y,par_enemy)
+	_dist = instance_nearest(x,y,par_enemy)
+	var _dist2 = instance_nearest(x,y,obj_reespawn)
 	if(instance_exists(_dist)){
-	
-	weapon_dir = point_direction(x,y,_dist.x,_dist.y)
+		weapon_dir = point_direction(x,y,_dist.x,_dist.y)
+	}else if(instance_exists(_dist2)){
+		weapon_dir = point_direction(x,y,_dist2.x,_dist2.y)
 	}
 	
 	if(mb){

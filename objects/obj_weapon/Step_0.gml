@@ -1,3 +1,12 @@
+if(global.pause == true or instance_exists(obj_hit_slow)){
+	alarm[0]++
+	alarm[1]++
+	image_speed = 0
+	exit;	
+}else{
+	image_speed = 1	
+}
+
 if(instance_exists(weapon_id)){
 	x = weapon_id.x;
 	y = weapon_id.y + 7.5;

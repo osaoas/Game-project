@@ -1,6 +1,6 @@
 velh = 0;
 velv = 0;
-velc = 10;
+velc = 5;
 move_dir = 0;
 if(!variable_global_exists("my_weapons")){
 	global.my_weapons = [1,0]

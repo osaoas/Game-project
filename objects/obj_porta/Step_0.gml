@@ -1,4 +1,4 @@
-if(!instance_exists(par_enemy)){
+if(!instance_exists(par_enemy) && !instance_exists(obj_reespawn)){
 	aberta = true	
 }else{
 	aberta = false	

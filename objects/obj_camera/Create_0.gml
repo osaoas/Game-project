@@ -6,3 +6,5 @@ global.cmy = obj_player.y - global.cmh / 2;
 
 cam_velc = .07;
 target = obj_player
+shake_leng = 0
+shake_time = 0

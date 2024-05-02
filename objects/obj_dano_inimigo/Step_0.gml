@@ -1,7 +1,8 @@
 y-=vspd
 alpha -= alpha_redux;
-scale += 0.06
-
+if(scale<1){
+	scale += 0.1
+}
 if(alpha<=0){
 	instance_destroy()	
 }

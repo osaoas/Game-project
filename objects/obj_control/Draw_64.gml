@@ -1,4 +1,7 @@
+
 draw_sprite_ext(spr_GUI_gunEqp,-1,455,60,1,1,0,c_white,1)
+
+
 
 var _spr = obj_weapon.armas[global.arma_equipada][? "sprite"]
 var _dmg = obj_weapon.armas[global.arma_equipada][? "damage"]
@@ -42,3 +45,6 @@ draw_text_transformed_color(455,110," : " + string(global.money),0.8,0.8,0,c_whi
 draw_text_transformed_color(455,110," : " + string(global.money),0.8,0.8,0,c_purple,c_purple,c_purple,c_purple,0.3)
 
 
+if instance_exists(obj_hit_slow){
+	draw_sprite(spr_shake_effect,-1,0,0)
+}

@@ -40,9 +40,24 @@ armas[5] = ds_map_create();
 	ds_map_add(armas[5], "preco", 40)
 	ds_map_add(armas[5], "obj", obj_sword)
 	ds_map_add(armas[5], "scr", -1)
-
-
 i = 6;
+
+armas[i] = ds_map_create();
+	ds_map_add(armas[i], "sprite", spr_more_life)
+	ds_map_add(armas[i], "preco", 40)
+	ds_map_add(armas[i], "obj", -1)
+	ds_map_add(armas[i], "scr", more_life)
+	
+i++;
+
+armas[i] = ds_map_create();
+	ds_map_add(armas[i], "sprite", spr_life_potion)
+	ds_map_add(armas[i], "preco", 40)
+	ds_map_add(armas[i], "obj", -1)
+	ds_map_add(armas[i], "scr", curar_vida)
+	
+i++;
+
 if(!global.imu_espinho){
 	armas[i] = ds_map_create();
 		ds_map_add(armas[i], "sprite", spr_imu_espinho)
