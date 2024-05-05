@@ -1,6 +1,5 @@
 var _hit = irandom(1)
-var _hit_obj = instance_create_layer(x,y,"Weapons",obj_hit_effect)
-
+var _hit_obj = instance_create_depth(x,y,99,obj_hit_effect)
 if(_hit == 0){
 	_hit_obj.sprite_index = spr_hit_effect
 }else{
@@ -9,6 +8,9 @@ if(_hit == 0){
 }
 
 shake(3,5)
+
+
+
 
 instance_destroy()
 other.debuff = debuff;

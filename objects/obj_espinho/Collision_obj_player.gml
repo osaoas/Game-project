@@ -1,4 +1,4 @@
-if(!other.invencible and !global.imu_espinho){
+if(!other.invencible and !global.imu_espinho and mask_index != -1){
 	global.life -= 1;
 	other.invencible = true;
 	other.alarm[0] = 100;

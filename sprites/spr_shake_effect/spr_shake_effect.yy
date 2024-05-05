@@ -20,7 +20,7 @@
   "height":360,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"4f7ae9db-6ae8-4901-83f5-e5bb39a4f2c9","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"4f7ae9db-6ae8-4901-83f5-e5bb39a4f2c9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"4f7ae9db-6ae8-4901-83f5-e5bb39a4f2c9","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"4f7ae9db-6ae8-4901-83f5-e5bb39a4f2c9","opacity":39.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"42809642-9a44-46b7-8aec-618312749dff","blendMode":0,"displayName":"default","isLocked":false,"name":"42809642-9a44-46b7-8aec-618312749dff","opacity":58.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_shake_effect",

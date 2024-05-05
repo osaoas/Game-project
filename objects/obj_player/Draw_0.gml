@@ -1,6 +1,6 @@
-draw_sprite(spr_sombra,0,x,y + 10)
-if(instance_exists(obj_proj)){
-	draw_text(x,y-50,obj_proj.direction)
+draw_sprite_ext(spr_sombra,0,x,y + sprite_height / 2,2,1,0,c_white,1)
+if(instance_exists(obj_espinho)){
+	draw_text(x,y-50,obj_espinho.alarm[1])
 }
 draw_self();
 

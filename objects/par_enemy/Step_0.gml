@@ -17,7 +17,8 @@ if(instance_exists(obj_hit_slow)){
 	image_speed=1	
 }
 
-hit_alpha = lerp(hit_alpha,0,0.05)
+hit_alpha = lerp(hit_alpha,0,0.1)
+
 if(life <= 0){
 	
 	instance_create_layer(x,y,layer,obj_moeda)

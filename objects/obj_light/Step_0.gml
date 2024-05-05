@@ -1,5 +1,5 @@
 if instance_exists(target){
-	x=target.x;
+	x=target.x + 32;
 	y=target.y;
 	direction = target.direction
 	image_angle = target.image_angle

@@ -29,7 +29,7 @@ var _w = obj_weapon
 								with(inimigoID){
 									life -= obj_weapon.damage;	
 									hit_alpha = 1;
-									var _hit = 	instance_create_layer(x,y,"Weapons",obj_hit_effect)
+									var _hit = 	instance_create_depth(x,y,99,obj_hit_effect)
 									_hit.sprite_index = spr_hit_effect_sword
 									var _hit_dir = obj_weapon.weapon_dir + 90
 									if(_hit_dir>=360){

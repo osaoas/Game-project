@@ -44,7 +44,8 @@ if(ja_criou == false){
 
 				
 			}else if cor_pixel == 2254322{ //laranja
-			
+				instance_create_layer(_xx + 16,_yy + 16,"enemies",obj_lord_v)	
+
 			}else if cor_pixel == 11169521 {//meirosa
 				instance_create_layer(_xx + 16,_yy + 16,"enemies",obj_caveira)	
 

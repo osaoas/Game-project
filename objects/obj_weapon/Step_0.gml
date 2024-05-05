@@ -9,14 +9,20 @@ if(global.pause == true or instance_exists(obj_hit_slow)){
 
 if(instance_exists(weapon_id)){
 	x = weapon_id.x;
-	y = weapon_id.y + 7.5;
+	y = weapon_id.y + 5;
 	
 	weapon_x = x + lengthdir_x(16,weapon_dir)
 	weapon_y = y + lengthdir_y(16,weapon_dir)
 	image_angle = weapon_dir;
 	
 	
+	var _inter = weapon_dir == clamp(weapon_dir,90,270)
 	
+	if(_inter){
+		im_yscale = -1	
+	}else{
+		im_yscale=1	
+	}
 
 
 	

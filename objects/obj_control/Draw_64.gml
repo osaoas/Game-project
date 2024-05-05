@@ -48,3 +48,7 @@ draw_text_transformed_color(455,110," : " + string(global.money),0.8,0.8,0,c_pur
 if instance_exists(obj_hit_slow){
 	draw_sprite(spr_shake_effect,-1,0,0)
 }
+
+
+
+

@@ -25,7 +25,6 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"f813b6a5-be84-41bb-a3d7-0f6a882415ce","blendMode":0,"displayName":"default (2) (2)","isLocked":false,"name":"f813b6a5-be84-41bb-a3d7-0f6a882415ce","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"e2829936-f2c3-40e5-9a9c-0fda557e12f9","blendMode":0,"displayName":"default (2)","isLocked":false,"name":"e2829936-f2c3-40e5-9a9c-0fda557e12f9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"e3e39307-6773-4f8b-9d71-9d7692b31ee4","blendMode":0,"displayName":"default","isLocked":false,"name":"e3e39307-6773-4f8b-9d71-9d7692b31ee4","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_hit_effect2",

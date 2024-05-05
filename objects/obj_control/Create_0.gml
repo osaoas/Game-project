@@ -12,6 +12,7 @@ global.ry2 = 0;
 global.nums = ds_list_create()
 
 
+inimigos = ds_grid_create(2,0)
 
 
 

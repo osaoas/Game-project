@@ -165,7 +165,7 @@ armas[7] = ds_map_create();
 
 
 
-
+im_yscale = 1;
 timer = 0;
 weapon_id = -1;
 weapon_dir = -1;

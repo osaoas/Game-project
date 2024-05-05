@@ -11,5 +11,7 @@ if(Nbateu && global.ricochete){
 	
 	Nbateu=false;
 	
+}else{
+	instance_destroy()
 }
 

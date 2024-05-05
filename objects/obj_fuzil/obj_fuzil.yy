@@ -5,7 +5,7 @@
   "managed":true,
   "name":"obj_fuzil",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"obj_weapon_drop","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},"propertyId":{"name":"weapon_index","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_weapon_drop","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},"propertyId":{"name":"weapon_index","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
     "name":"weapons",
