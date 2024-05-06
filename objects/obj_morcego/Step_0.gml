@@ -3,6 +3,7 @@ if(global.pause == true or instance_exists(obj_hit_slow)){
 	_spd = 0
 	speed = 0
 	sprite_index = sprI
+	path_speed = 0
 	alarm[0]++
 	alarm[1]++
 	alarm[2]++
@@ -20,7 +21,6 @@ if(life <= 0){
 	instance_destroy()
 	global.enemiesLie++;
 }
-
 
 
 

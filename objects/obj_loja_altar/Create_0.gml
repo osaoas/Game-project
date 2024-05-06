@@ -112,6 +112,6 @@ current_scale = min_scale
 prox = false;
 	
 	
-my_light = create_lights(x+16,y+16,c_purple,1,1,1,-1)
+my_light = create_lights(x+48,y+16,c_purple,1,1,1,-1)
 
 

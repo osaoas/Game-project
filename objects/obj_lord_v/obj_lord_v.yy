@@ -8,16 +8,17 @@
   "managed":true,
   "name":"obj_lord_v",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprR","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_lord_v_idle",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprI","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_lord_v_idle",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprR","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"life","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1000",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},"propertyId":{"name":"sprI","path":"objects/par_enemy/par_enemy.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
   ],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"par_enemy",
-    "path":"objects/par_enemy/par_enemy.yy",
+    "name":"par_boss",
+    "path":"objects/par_boss/par_boss.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -40,9 +41,6 @@
     "name":"spr_lord_v_idle",
     "path":"sprites/spr_lord_v_idle/spr_lord_v_idle.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_lord_v_idle",
-    "path":"sprites/spr_lord_v_idle/spr_lord_v_idle.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }

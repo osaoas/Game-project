@@ -49,6 +49,9 @@ if instance_exists(obj_hit_slow){
 	draw_sprite(spr_shake_effect,-1,0,0)
 }
 
-
-
+if(instance_exists(par_boss)){
+	draw_sprite_ext(spr_boss_bar, 0, 156, 10,1,1,0,c_black,1 )
+	draw_sprite_ext(spr_boss_life, 0, 156, 10,(global.lifeBoss/global.lifeBoss_max),1,0,c_white,1 )
+	draw_sprite_ext(spr_boss_bar, 0,156, 10,1,1,0,c_white,1 )
+}
 

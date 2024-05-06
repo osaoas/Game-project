@@ -9,3 +9,6 @@ cointer = 0
 timer = 100
 _gesto = 0
 caminho = path_add()
+time = 200
+global.lifeBoss = life
+global.lifeBoss_max = life

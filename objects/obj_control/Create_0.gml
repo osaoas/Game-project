@@ -10,7 +10,8 @@ global.rx2 = 0;
 global.ry1 = 0;
 global.ry2 = 0;
 global.nums = ds_list_create()
-
+global.lifeBoss = 0
+global.lifeBoss_max = 0
 
 inimigos = ds_grid_create(2,0)
 
