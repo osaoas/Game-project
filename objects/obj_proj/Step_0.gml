@@ -1,4 +1,4 @@
-if(global.pause == true){
+if(global.pause == true or instance_exists(obj_hit_slow)){
 	
 	speed = 0;
 	alarm[0]++

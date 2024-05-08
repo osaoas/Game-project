@@ -81,6 +81,7 @@
     {"id":{"name":"obj_sniper","path":"objects/obj_sniper/obj_sniper.yy",},},
     {"id":{"name":"obj_spell_vfx","path":"objects/obj_spell_vfx/obj_spell_vfx.yy",},},
     {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},},
+    {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
     {"id":{"name":"obj_weapon_drop","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},},
     {"id":{"name":"obj_weapon_hit","path":"objects/obj_weapon_hit/obj_weapon_hit.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},

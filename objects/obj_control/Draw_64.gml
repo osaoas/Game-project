@@ -55,3 +55,11 @@ if(instance_exists(par_boss)){
 	draw_sprite_ext(spr_boss_bar, 0,156, 10,1,1,0,c_white,1 )
 }
 
+if instance_exists(obj_transicao){
+	draw_set_color(c_black)
+		draw_set_alpha(obj_transicao.alpha)
+			draw_rectangle(-1,-1,view_wport[0] + 1, view_hport[0] +1,false)
+		draw_set_alpha(1)
+	draw_set_color(-1)
+
+}

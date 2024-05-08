@@ -57,7 +57,13 @@ if(ja_criou == false){
 				var _leste_t = surface_getpixel(surf,_x+1,_y) 
 				var _oeste_t = surface_getpixel(surf,_x-1,_y) 
 				
-				
+				if (_y-1<0){
+					_norte_t = 1
+				}if (_x+1>=spr_w){
+					_leste_t = 1
+				}if (_x-1<0){
+					_oeste_t = 1
+				}
 				var _norte = _norte_t == 0
 				var _oeste = _oeste_t == 0
 				var _leste = _leste_t == 0

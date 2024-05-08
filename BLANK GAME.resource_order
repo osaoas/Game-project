@@ -57,6 +57,7 @@
     {"name":"obj_sniper","order":9,"path":"objects/obj_sniper/obj_sniper.yy",},
     {"name":"obj_spell_vfx","order":10,"path":"objects/obj_spell_vfx/obj_spell_vfx.yy",},
     {"name":"obj_sword","order":11,"path":"objects/obj_sword/obj_sword.yy",},
+    {"name":"obj_transicao","order":24,"path":"objects/obj_transicao/obj_transicao.yy",},
     {"name":"obj_weapon_drop","order":13,"path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},
     {"name":"obj_weapon_hit","order":14,"path":"objects/obj_weapon_hit/obj_weapon_hit.yy",},
     {"name":"obj_weapon","order":12,"path":"objects/obj_weapon/obj_weapon.yy",},

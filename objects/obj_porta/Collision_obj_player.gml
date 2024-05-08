@@ -1,9 +1,6 @@
 if(aberta){
-	if(global.room<=9){
-		global.room +=1
-	}else{
-		global.room = 1	
-		global.andar +=1
+
+	if !instance_exists(obj_transicao){
+		instance_create_layer(0,0,layer,obj_transicao)
 	}
-	room_restart()
 }
