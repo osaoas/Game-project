@@ -28,6 +28,5 @@ for(var i = 0;i<ds_grid_height(inimigos);i++){
 	}
 }
 }
-
-
 draw_sprite(spr_mira,1,mouse_x,mouse_y)
+

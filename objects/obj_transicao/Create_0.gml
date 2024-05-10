@@ -7,4 +7,4 @@ if(global.room<=9){
 }else{
 	global.room +=1
 	global.andar +=1
-	}
+}

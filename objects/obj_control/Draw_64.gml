@@ -1,4 +1,11 @@
 
+if(instance_exists(obj_menu)){
+
+
+	
+}else{
+
+
 draw_sprite_ext(spr_GUI_gunEqp,-1,455,60,1,1,0,c_white,1)
 
 
@@ -63,3 +70,7 @@ if instance_exists(obj_transicao){
 	draw_set_color(-1)
 
 }
+}
+
+
+

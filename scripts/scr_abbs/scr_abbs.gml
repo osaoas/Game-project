@@ -29,4 +29,3 @@ function curar_vida(){
 	create_lights(_quantidi.x,_quantidi.y,c_red,1,1,1,_quantidi)
 	
 }
-

@@ -123,7 +123,6 @@ with(my_weapon){
 		exit	
 	}
 	var mb;
-	var _key_drop = keyboard_check_pressed(ord("F"))
 	var _key_pickup = keyboard_check_pressed(ord("E"))
 
 	if(automatic){
@@ -172,7 +171,7 @@ with(my_weapon){
 	}
 
 	}
-	if(keyboard_check_pressed(ord("B")) && !instance_exists(obj_weapon_hit) ){
+	if(keyboard_check_pressed(ord("R")) && !instance_exists(obj_weapon_hit) ){
 		if(global.my_weapons[(global.arma_index + 1) mod 2] != 0 and global.my_weapons[(global.arma_index + 1) mod 2] != undefined){
 			global.arma_index = (global.arma_index + 1) mod 2;
 			global.arma_equipada = global.my_weapons[global.arma_index]

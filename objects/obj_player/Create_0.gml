@@ -11,6 +11,7 @@ if(!variable_global_exists("my_weapons")){
 	global.money = 30
 	global.imu_espinho = false;
 	global.ricochete = false
+	instance_create_depth(0,0,0,obj_menu)
 	
 }
 
