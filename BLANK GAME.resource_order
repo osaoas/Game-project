@@ -80,6 +80,7 @@
     {"name":"spr_cajado","order":2,"path":"sprites/spr_cajado/spr_cajado.yy",},
     {"name":"spr_caveira_idle","order":32,"path":"sprites/spr_caveira_idle/spr_caveira_idle.yy",},
     {"name":"spr_controles","order":42,"path":"sprites/spr_controles/spr_controles.yy",},
+    {"name":"spr_controles2","order":43,"path":"sprites/spr_controles2/spr_controles2.yy",},
     {"name":"spr_empty","order":3,"path":"sprites/spr_empty/spr_empty.yy",},
     {"name":"spr_energia_ruim","order":34,"path":"sprites/spr_energia_ruim/spr_energia_ruim.yy",},
     {"name":"spr_espinho_atv","order":4,"path":"sprites/spr_espinho_atv/spr_espinho_atv.yy",},

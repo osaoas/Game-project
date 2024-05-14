@@ -107,6 +107,7 @@
     {"id":{"name":"spr_caveira_idle","path":"sprites/spr_caveira_idle/spr_caveira_idle.yy",},},
     {"id":{"name":"spr_colision","path":"sprites/spr_colision/spr_colision.yy",},},
     {"id":{"name":"spr_controles","path":"sprites/spr_controles/spr_controles.yy",},},
+    {"id":{"name":"spr_controles2","path":"sprites/spr_controles2/spr_controles2.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
     {"id":{"name":"spr_energia_ruim","path":"sprites/spr_energia_ruim/spr_energia_ruim.yy",},},
     {"id":{"name":"spr_espinho_atv","path":"sprites/spr_espinho_atv/spr_espinho_atv.yy",},},

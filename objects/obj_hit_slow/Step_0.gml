@@ -1,3 +1,6 @@
+if(!global.pause){
+	
+
 tempo--
 
 
@@ -8,3 +11,4 @@ if(tempo<=0){
 }
 
 
+}

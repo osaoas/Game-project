@@ -1,4 +1,13 @@
-options = ["Play", "Controls", "Exit"]
+
+
+if global.room == 0{
+	options = ["Play", "Controls", "Exit"]
+}else{
+	options = ["Continuar", "Controls", "Menu"]
+}	
+
+
+
 index = -1;
 op_max = array_length(options)
 marg_val = 0
@@ -10,31 +19,41 @@ in_control = false
 #region
 
 
-
 desenha_menu = function() {
-	
-	draw_set_color(c_black)
-		draw_rectangle(-1,-1,view_wport[0] + 1, view_hport[0] +1,false)
-	draw_set_color(c_white)
+		if global.room != 0{
+			draw_set_color(c_black)
+				draw_set_alpha(0.5)
+					draw_rectangle(-1,-1,view_wport[0] + 1, view_hport[0],false)
+				draw_set_alpha(1)
+			draw_set_color(c_white)
+		}else{
+			draw_set_color(c_black)
+				draw_rectangle(-1,-1,view_wport[0] + 1, view_hport[0] +1,false)
+			draw_set_color(c_white)	
+			
+			
+		}
 	draw_set_font(fnt_small)
+	draw_sprite(spr_controles2,1,20,340)
 
 
 	var m_x = device_mouse_x_to_gui(0)
 	var m_y = device_mouse_y_to_gui(0)
 	if !in_control{
-		var x1 = 20
-		var y1 = 150
-
-
+	
+			var x1 = 20
+			var y1 = 130		
+		
 	for (var i = 0; i<op_max;i++){
 		draw_set_color(c_white)
-
+	if global.room != 0{
+			x1 = 252 - string_width(options[i])/2
+		}
 		var y2 = y1 + 50 * i
 		var string_w = string_width(options[i])
 		var string_h = string_height(options[i]) - 20
 		draw_set_valign(1)
 		draw_set_halign(0)
-		var _ta = point_in_rectangle(m_x,m_y,x1-string_w,y2-string_h,x1+string_w,y2+string_h)
 
 
 		if(sel == i){
@@ -54,10 +73,9 @@ desenha_menu = function() {
 		
 	
 	}else{
-		draw_sprite_ext(spr_controles,-1,250,180,3,3,0,c_white,1)
+		draw_sprite_ext(spr_controles,-1,252,150,3,3,0,c_white,1)
 	}	
 	
-draw_sprite(spr_mira,0,m_x,m_y)
 	draw_set_valign(-1)
 	draw_set_halign(-1)
 }
@@ -81,15 +99,27 @@ controla_menu = function(){
 	
 	if _avanca{
 	switch sel{
-		case 0:		
-			instance_destroy()	
+		case 0:
+			instance_destroy()
+			global.pause=false
 		break;
 		case 1:
 			in_control = true
 		break;
 		
 		case 2:
+		if global.room == 0{
 			game_end()
+		}else{
+			global.room = 0
+			room_restart()
+			instance_destroy()
+			instance_create_depth(0,0,0,obj_menu)	
+			global.pause = true
+			
+			
+			
+		}
 		break;
 		
 	}

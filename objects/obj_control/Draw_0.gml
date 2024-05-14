@@ -23,10 +23,10 @@ for(var i = 0;i<ds_grid_height(inimigos);i++){
 			draw_sprite(spr_sombra,0,x,y + sprite_height / 2)
 			}
 		draw_self()
-		
 	}
 	}
 }
 }
 draw_sprite(spr_mira,1,mouse_x,mouse_y)
+
 

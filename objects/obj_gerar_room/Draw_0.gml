@@ -6,7 +6,7 @@ if(ja_criou == false){
 
 	surface_set_target(surf)
 
-		draw_sprite(sprite_index,global.room - 1,0,0)
+		draw_sprite(sprite_index,global.room,0,0)
 	
 	
 	

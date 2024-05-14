@@ -1,8 +1,9 @@
 display_set_gui_size(504,360)
 
 
-
-global.pause = false;
+alpha = 1
+alpha2 = 0.3
+global.pause = true;
 global.maxEnemy = 0;
 global.enemies = 0
 global.rx1 = 0;
@@ -22,7 +23,7 @@ inimigos = ds_grid_create(2,0)
 
 
 if(!variable_global_exists("room")){
-	global.room = 1;
+	global.room = 0;
 }
 if(!variable_global_exists("andar")){
 	global.andar = 1;

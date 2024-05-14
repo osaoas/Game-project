@@ -1,5 +1,6 @@
 if(global.pause == true){
-	
+	alarm[0]++
+	alarm[1]++
 	sprite_index = spr_player_idle
 	image_speed = 0
 	exit;	
