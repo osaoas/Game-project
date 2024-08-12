@@ -15,6 +15,10 @@
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Notes","folderPath":"folders/Notes.yy","name":"Notes","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< HEAD
+=======
+    {"$GMFolder":"","%Name":"partes da room","folderPath":"folders/Objects/partes da room.yy","name":"partes da room","resourceType":"GMFolder","resourceVersion":"2.0",},
+>>>>>>> master
     {"$GMFolder":"","%Name":"weapons","folderPath":"folders/Objects/weapons.yy","name":"weapons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -24,7 +28,13 @@
     {"$GMFolder":"","%Name":"Shaders","folderPath":"folders/Shaders.yy","name":"Shaders","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sounds","folderPath":"folders/Sounds.yy","name":"Sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+<<<<<<< HEAD
     {"$GMFolder":"","%Name":"outros","folderPath":"folders/sprites/outros.yy","name":"outros","resourceType":"GMFolder","resourceVersion":"2.0",},
+=======
+    {"$GMFolder":"","%Name":"abbs","folderPath":"folders/sprites/abbs.yy","name":"abbs","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"outros","folderPath":"folders/sprites/outros.yy","name":"outros","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sprs sala","folderPath":"folders/sprites/sprs sala.yy","name":"sprs sala","resourceType":"GMFolder","resourceVersion":"2.0",},
+>>>>>>> master
     {"$GMFolder":"","%Name":"weapons","folderPath":"folders/sprites/weapons.yy","name":"weapons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"armas","folderPath":"folders/sprites/weapons/armas.yy","name":"armas","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"projeteis","folderPath":"folders/sprites/weapons/projeteis.yy","name":"projeteis","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -38,6 +48,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
+<<<<<<< HEAD
     "IDEVersion":"2024.2.0.132",
   },
   "name":"BLANK GAME",
@@ -52,20 +63,58 @@
     {"id":{"name":"obj_fire_cajado","path":"objects/obj_fire_cajado/obj_fire_cajado.yy",},},
     {"id":{"name":"obj_fireBall_vfx","path":"objects/obj_fireBall_vfx/obj_fireBall_vfx.yy",},},
     {"id":{"name":"obj_fuzil","path":"objects/obj_fuzil/obj_fuzil.yy",},},
+=======
+    "IDEVersion":"2024.6.2.162",
+  },
+  "name":"BLANK GAME",
+  "resources":[
+    {"id":{"name":"ac_margin","path":"animcurves/ac_margin/ac_margin.yy",},},
+    {"id":{"name":"fnt_menu","path":"fonts/fnt_menu/fnt_menu.yy",},},
+    {"id":{"name":"fnt_small","path":"fonts/fnt_small/fnt_small.yy",},},
+    {"id":{"name":"obj_bau","path":"objects/obj_bau/obj_bau.yy",},},
+    {"id":{"name":"obj_buraco","path":"objects/obj_buraco/obj_buraco.yy",},},
+    {"id":{"name":"obj_cajado","path":"objects/obj_cajado/obj_cajado.yy",},},
+    {"id":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},},
+    {"id":{"name":"obj_caveira","path":"objects/obj_caveira/obj_caveira.yy",},},
+    {"id":{"name":"obj_colision","path":"objects/obj_colision/obj_colision.yy",},},
+    {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
+    {"id":{"name":"obj_dano_inimigo","path":"objects/obj_dano_inimigo/obj_dano_inimigo.yy",},},
+    {"id":{"name":"obj_espinho","path":"objects/obj_espinho/obj_espinho.yy",},},
+    {"id":{"name":"obj_fire_cajado","path":"objects/obj_fire_cajado/obj_fire_cajado.yy",},},
+    {"id":{"name":"obj_fireBall_vfx","path":"objects/obj_fireBall_vfx/obj_fireBall_vfx.yy",},},
+    {"id":{"name":"obj_fuzil","path":"objects/obj_fuzil/obj_fuzil.yy",},},
+    {"id":{"name":"obj_gerar_room","path":"objects/obj_gerar_room/obj_gerar_room.yy",},},
+    {"id":{"name":"obj_hit_effect","path":"objects/obj_hit_effect/obj_hit_effect.yy",},},
+    {"id":{"name":"obj_hit_slow","path":"objects/obj_hit_slow/obj_hit_slow.yy",},},
+    {"id":{"name":"obj_hit_tester","path":"objects/obj_hit_tester/obj_hit_tester.yy",},},
+>>>>>>> master
     {"id":{"name":"obj_inimigo","path":"objects/obj_inimigo/obj_inimigo.yy",},},
     {"id":{"name":"obj_inimigo2","path":"objects/obj_inimigo2/obj_inimigo2.yy",},},
     {"id":{"name":"obj_light_render","path":"objects/obj_light_render/obj_light_render.yy",},},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"obj_loja_altar","path":"objects/obj_loja_altar/obj_loja_altar.yy",},},
+    {"id":{"name":"obj_lord_v","path":"objects/obj_lord_v/obj_lord_v.yy",},},
+    {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_moeda","path":"objects/obj_moeda/obj_moeda.yy",},},
+    {"id":{"name":"obj_morcego","path":"objects/obj_morcego/obj_morcego.yy",},},
+>>>>>>> master
     {"id":{"name":"obj_pistol","path":"objects/obj_pistol/obj_pistol.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_porta","path":"objects/obj_porta/obj_porta.yy",},},
     {"id":{"name":"obj_proj_enemy","path":"objects/obj_proj_enemy/obj_proj_enemy.yy",},},
     {"id":{"name":"obj_proj","path":"objects/obj_proj/obj_proj.yy",},},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"obj_reespawn","path":"objects/obj_reespawn/obj_reespawn.yy",},},
+>>>>>>> master
     {"id":{"name":"obj_sensor","path":"objects/obj_sensor/obj_sensor.yy",},},
     {"id":{"name":"obj_shotgun","path":"objects/obj_shotgun/obj_shotgun.yy",},},
     {"id":{"name":"obj_sniper","path":"objects/obj_sniper/obj_sniper.yy",},},
     {"id":{"name":"obj_spell_vfx","path":"objects/obj_spell_vfx/obj_spell_vfx.yy",},},
     {"id":{"name":"obj_sword","path":"objects/obj_sword/obj_sword.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"obj_weapon_drop","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},},
     {"id":{"name":"obj_weapon_hit","path":"objects/obj_weapon_hit/obj_weapon_hit.yy",},},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
@@ -73,28 +122,89 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_mudar_arma","path":"scripts/scr_mudar_arma/scr_mudar_arma.yy",},},
     {"id":{"name":"scr_lights","path":"scripts/scr_lights/scr_lights.yy",},},
+=======
+    {"id":{"name":"obj_transicao","path":"objects/obj_transicao/obj_transicao.yy",},},
+    {"id":{"name":"obj_weapon_drop","path":"objects/obj_weapon_drop/obj_weapon_drop.yy",},},
+    {"id":{"name":"obj_weapon_hit","path":"objects/obj_weapon_hit/obj_weapon_hit.yy",},},
+    {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},},
+    {"id":{"name":"par_boss","path":"objects/par_boss/par_boss.yy",},},
+    {"id":{"name":"par_enemy","path":"objects/par_enemy/par_enemy.yy",},},
+    {"id":{"name":"sala01","path":"rooms/sala01/sala01.yy",},},
+    {"id":{"name":"scr_abbs","path":"scripts/scr_abbs/scr_abbs.yy",},},
+    {"id":{"name":"scr_funcoes","path":"scripts/scr_funcoes/scr_funcoes.yy",},},
+    {"id":{"name":"scr_lights","path":"scripts/scr_lights/scr_lights.yy",},},
+    {"id":{"name":"scr_mudar_arma","path":"scripts/scr_mudar_arma/scr_mudar_arma.yy",},},
+    {"id":{"name":"scr_shake","path":"scripts/scr_shake/scr_shake.yy",},},
+>>>>>>> master
     {"id":{"name":"spr_atq_enemy","path":"sprites/spr_atq_enemy/spr_atq_enemy.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_bau_aberto","path":"sprites/spr_bau_aberto/spr_bau_aberto.yy",},},
     {"id":{"name":"spr_bau","path":"sprites/spr_bau/spr_bau.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_cajado","path":"sprites/spr_cajado/spr_cajado.yy",},},
     {"id":{"name":"spr_colision","path":"sprites/spr_colision/spr_colision.yy",},},
     {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
+=======
+    {"id":{"name":"spr_boss_bar","path":"sprites/spr_boss_bar/spr_boss_bar.yy",},},
+    {"id":{"name":"spr_boss_life","path":"sprites/spr_boss_life/spr_boss_life.yy",},},
+    {"id":{"name":"spr_buraco","path":"sprites/spr_buraco/spr_buraco.yy",},},
+    {"id":{"name":"spr_cajado","path":"sprites/spr_cajado/spr_cajado.yy",},},
+    {"id":{"name":"spr_caveira_idle","path":"sprites/spr_caveira_idle/spr_caveira_idle.yy",},},
+    {"id":{"name":"spr_colision","path":"sprites/spr_colision/spr_colision.yy",},},
+    {"id":{"name":"spr_controles","path":"sprites/spr_controles/spr_controles.yy",},},
+    {"id":{"name":"spr_controles2","path":"sprites/spr_controles2/spr_controles2.yy",},},
+    {"id":{"name":"spr_empty","path":"sprites/spr_empty/spr_empty.yy",},},
+    {"id":{"name":"spr_energia_ruim","path":"sprites/spr_energia_ruim/spr_energia_ruim.yy",},},
+    {"id":{"name":"spr_espinho_atv","path":"sprites/spr_espinho_atv/spr_espinho_atv.yy",},},
+    {"id":{"name":"spr_espinho","path":"sprites/spr_espinho/spr_espinho.yy",},},
+>>>>>>> master
     {"id":{"name":"spr_fireBall_vfx","path":"sprites/spr_fireBall_vfx/spr_fireBall_vfx.yy",},},
     {"id":{"name":"spr_fireBullet","path":"sprites/spr_fireBullet/spr_fireBullet.yy",},},
     {"id":{"name":"spr_fireCajado","path":"sprites/spr_fireCajado/spr_fireCajado.yy",},},
     {"id":{"name":"spr_fireVfx","path":"sprites/spr_fireVfx/spr_fireVfx.yy",},},
     {"id":{"name":"spr_fuzil","path":"sprites/spr_fuzil/spr_fuzil.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_inimigo_idle","path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",},},
     {"id":{"name":"spr_inimigo_run","path":"sprites/spr_inimigo_run/spr_inimigo_run.yy",},},
     {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},},
     {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},},
+=======
+    {"id":{"name":"spr_GUI_gunEqp","path":"sprites/spr_GUI_gunEqp/spr_GUI_gunEqp.yy",},},
+    {"id":{"name":"spr_hit_effect_sword","path":"sprites/spr_hit_effect_sword/spr_hit_effect_sword.yy",},},
+    {"id":{"name":"spr_hit_effect","path":"sprites/spr_hit_effect/spr_hit_effect.yy",},},
+    {"id":{"name":"spr_hit_effect2","path":"sprites/spr_hit_effect2/spr_hit_effect2.yy",},},
+    {"id":{"name":"spr_imu_espinho","path":"sprites/spr_imu_espinho/spr_imu_espinho.yy",},},
+    {"id":{"name":"spr_inimigo_idle","path":"sprites/spr_inimigo_idle/spr_inimigo_idle.yy",},},
+    {"id":{"name":"spr_life_bar","path":"sprites/spr_life_bar/spr_life_bar.yy",},},
+    {"id":{"name":"spr_life_potion","path":"sprites/spr_life_potion/spr_life_potion.yy",},},
+    {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},},
+    {"id":{"name":"spr_light","path":"sprites/spr_light/spr_light.yy",},},
+    {"id":{"name":"spr_loja_altar","path":"sprites/spr_loja_altar/spr_loja_altar.yy",},},
+    {"id":{"name":"spr_lord_v_final_form","path":"sprites/spr_lord_v_final_form/spr_lord_v_final_form.yy",},},
+    {"id":{"name":"spr_lord_v_idle","path":"sprites/spr_lord_v_idle/spr_lord_v_idle.yy",},},
+    {"id":{"name":"spr_lord_v_summon","path":"sprites/spr_lord_v_summon/spr_lord_v_summon.yy",},},
+    {"id":{"name":"spr_mira","path":"sprites/spr_mira/spr_mira.yy",},},
+    {"id":{"name":"spr_moeda","path":"sprites/spr_moeda/spr_moeda.yy",},},
+    {"id":{"name":"spr_morcego_idle","path":"sprites/spr_morcego_idle/spr_morcego_idle.yy",},},
+    {"id":{"name":"spr_morcego_run","path":"sprites/spr_morcego_run/spr_morcego_run.yy",},},
+    {"id":{"name":"spr_more_life","path":"sprites/spr_more_life/spr_more_life.yy",},},
+>>>>>>> master
     {"id":{"name":"spr_pistol","path":"sprites/spr_pistol/spr_pistol.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_run","path":"sprites/spr_player_run/spr_player_run.yy",},},
     {"id":{"name":"spr_porta_aberta","path":"sprites/spr_porta_aberta/spr_porta_aberta.yy",},},
+<<<<<<< HEAD
     {"id":{"name":"spr_proj","path":"sprites/spr_proj/spr_proj.yy",},},
     {"id":{"name":"spr_proj15mm","path":"sprites/spr_proj15mm/spr_proj15mm.yy",},},
+=======
+    {"id":{"name":"spr_porta_fechada","path":"sprites/spr_porta_fechada/spr_porta_fechada.yy",},},
+    {"id":{"name":"spr_proj_caveira","path":"sprites/spr_proj_caveira/spr_proj_caveira.yy",},},
+    {"id":{"name":"spr_proj","path":"sprites/spr_proj/spr_proj.yy",},},
+    {"id":{"name":"spr_proj15mm","path":"sprites/spr_proj15mm/spr_proj15mm.yy",},},
+    {"id":{"name":"spr_ricochete","path":"sprites/spr_ricochete/spr_ricochete.yy",},},
+    {"id":{"name":"spr_salas","path":"sprites/spr_salas/spr_salas.yy",},},
+    {"id":{"name":"spr_shake_effect","path":"sprites/spr_shake_effect/spr_shake_effect.yy",},},
+>>>>>>> master
     {"id":{"name":"spr_shotgun","path":"sprites/spr_shotgun/spr_shotgun.yy",},},
     {"id":{"name":"spr_slime_idle","path":"sprites/spr_slime_idle/spr_slime_idle.yy",},},
     {"id":{"name":"spr_slime_run","path":"sprites/spr_slime_run/spr_slime_run.yy",},},
@@ -112,12 +222,21 @@
     {"id":{"name":"spr_sword","path":"sprites/spr_sword/spr_sword.yy",},},
     {"id":{"name":"spr_teclaQ","path":"sprites/spr_teclaQ/spr_teclaQ.yy",},},
     {"id":{"name":"spr_tileSet","path":"sprites/spr_tileSet/spr_tileSet.yy",},},
+<<<<<<< HEAD
+=======
+    {"id":{"name":"tile_do_buraco","path":"sprites/tile_do_buraco/tile_do_buraco.yy",},},
+    {"id":{"name":"tile_buraco","path":"tilesets/tile_buraco/tile_buraco.yy",},},
+>>>>>>> master
     {"id":{"name":"TileSet","path":"tilesets/TileSet/TileSet.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+<<<<<<< HEAD
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+=======
+    {"roomId":{"name":"sala01","path":"rooms/sala01/sala01.yy",},},
+>>>>>>> master
   ],
   "templateType":"game",
   "TextureGroups":[
