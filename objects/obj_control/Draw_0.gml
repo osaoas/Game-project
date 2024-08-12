@@ -15,7 +15,7 @@ with(par_enemy){
 
 ds_grid_sort(inimigos,1,true)
 
-for(var i = 0;i<ds_grid_height(inimigos);i++){
+for(i = 0;i<ds_grid_height(inimigos);i++){
 	var _inst = inimigos[# 0,i]
 	if(instance_exists(_inst)){
 	with(_inst){

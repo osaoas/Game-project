@@ -3,7 +3,7 @@ velv = 0;
 velc = 5;
 move_dir = 0;
 if(!variable_global_exists("my_weapons")){
-	global.my_weapons = [1,0]
+	global.my_weapons = [7,0]
 	global.arma_equipada = global.my_weapons[0];
 	global.arma_index = 0
 	global.life = 3;

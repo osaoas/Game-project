@@ -3,7 +3,12 @@ display_set_gui_size(504,360)
 
 alpha = 1
 alpha2 = 0.3
-global.pause = true;
+if !variable_global_exists("pause"){
+	global.pause = true
+}
+	
+
+
 global.maxEnemy = 0;
 global.enemies = 0
 global.rx1 = 0;
@@ -57,8 +62,8 @@ if(global.maxEnemy > global.enemies){
 
 		}else{
 			while(instance_position(_xx,_yy,obj_colision) != noone){
-				var _xx = irandom_range(_xr1,_xr2)
-				var _yy = irandom_range(_yr1,_yr2)
+				_xx = irandom_range(_xr1,_xr2)
+				_yy = irandom_range(_yr1,_yr2)
 			}
 			instance_create_layer(_xx,_yy,"enemies", _monstro)
 			global.enemies++;

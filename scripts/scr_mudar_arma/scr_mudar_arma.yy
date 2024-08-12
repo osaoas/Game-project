@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"scr_mudar_arma",
   "isCompatibility":false,
   "isDnD":false,

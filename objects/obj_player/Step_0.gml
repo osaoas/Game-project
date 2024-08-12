@@ -123,7 +123,7 @@ with(my_weapon){
 	if(global.pause or !instance_exists(other)){
 		exit	
 	}
-	var mb;
+	var mb = mouse_check_button(mb_left);
 	var _key_pickup = keyboard_check_pressed(ord("E"))
 
 	if(automatic){
@@ -133,7 +133,7 @@ with(my_weapon){
 	}
 	
 	weapon_dir = point_direction(x,y,mouse_x,mouse_y);
-	_dist = instance_nearest(x,y,par_enemy)
+	var _dist = instance_nearest(x,y,par_enemy)
 	var _dist2 = instance_nearest(x,y,obj_reespawn)
 	if(instance_exists(_dist)){
 		weapon_dir = point_direction(x,y,_dist.x,_dist.y)

@@ -36,7 +36,7 @@ if(instance_exists(obj_player)){
 	draw_text_ext_transformed_color(454,15,string(global.life) + "/" + string(global.life_max),0,99,0.4,0.4,0,c_black,c_black,c_black,c_black,alpha)
 	draw_text_ext_transformed_color(455,16,string(global.life) + "/" + string(global.life_max),0,99,0.4,0.4,0,c_black,c_black,c_black,c_black,alpha)
 	draw_text_ext_transformed_color(455,14,string(global.life) + "/" + string(global.life_max),0,99,0.4,0.4,0,c_black,c_black,c_black,c_black,alpha)
-	draw_text_ext_transformed(455,15,string(global.life) + "/" + string(global.life_max),0,99,0.4,0.4,0)
+	draw_text_ext_transformed_color(455,15,string(global.life) + "/" + string(global.life_max),0,99,0.4,0.4,0,c_white,c_white,c_white,c_white,alpha)
 	draw_text_ext_transformed_color(455,15,string(global.life) + "/" + string(global.life_max),0,99,0.4,0.4,0,c_purple,c_purple,c_purple,c_purple,alpha2)
 }
 

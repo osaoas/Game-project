@@ -1,5 +1,4 @@
 if(ja_criou == false){
-	draw_self()
 
 	var surf = surface_create(spr_w,spr_h)
 

@@ -59,7 +59,7 @@ switch(debuff){
 		hit_color = c_aqua;
 	break;
 	case "knockback":
-		_dir = point_direction(x,y,obj_player.x,obj_player.y)
+		var _dir = point_direction(x,y,obj_player.x,obj_player.y)
 		_dir += 180
 		
 		if(_dir >=360){
